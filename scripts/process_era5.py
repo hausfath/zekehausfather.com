@@ -1,28 +1,39 @@
 #!/usr/bin/env python3
 """Convert the Climate Dashboard's daily ERA5 series into a compact JSON for the
-website's interactive temperature chart.
+website's hero "live climate data" card.
+
+By default this pulls the SAME live daily series the Climate Dashboard uses,
+straight from Copernicus Climate Pulse (see ERA5_URL below), so the card stays
+fresh on every daily cron run instead of going stale against a checked-in file.
+Set ERA5_CSV to a local path (e.g. the Climate Dashboard's copy) to read that
+file instead — useful for offline/local rebuilds.
 
 Mirrors the baseline logic in The Climate Brink/GMST visualizations/gmst_data.py:
 ERA5 daily anomalies (vs 1991-2020) are shifted onto the 1850-1900 preindustrial
 baseline using per-month offsets. Output is rounded daily anomalies per year plus
 annual means and a few headline statistics.
 
+Stdlib only (urllib/csv/json) so it runs in CI without pip.
+
 Output: site/data/era5_daily.json
 """
 
+import csv
+import io
 import json
 import os
+import urllib.request
 from datetime import datetime, timezone
 
-import numpy as np
-import pandas as pd
-
-# Source CSV (same file the GMST visualizations use). Override with ERA5_CSV env var.
-DEFAULT_CSV = (
-    "/Users/hausfath/Desktop/Climate Science/Climate Dashboard/"
-    "data/era5_daily_series_2t_global.csv"
+# Live source — the daily global-mean 2m series published by Copernicus Climate
+# Pulse, identical to what the Climate Dashboard fetches (see Climate Dashboard
+# config.py). Override the URL with ERA5_URL, or read a local file via ERA5_CSV.
+DEFAULT_URL = (
+    "https://sites.ecmwf.int/data/climatepulse/data/series/"
+    "era5_daily_series_2t_global.csv"
 )
-CSV_PATH = os.environ.get("ERA5_CSV", DEFAULT_CSV)
+ERA5_URL = os.environ.get("ERA5_URL", DEFAULT_URL)
+ERA5_CSV = os.environ.get("ERA5_CSV")  # if set, read this local file instead
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT_PATH = os.path.join(HERE, "..", "site", "data", "era5_daily.json")
@@ -34,55 +45,86 @@ MONTHLY_PREINDUSTRIAL_OFFSETS = {
 }
 
 
-def load_daily() -> pd.DataFrame:
-    df = pd.read_csv(CSV_PATH, comment="#", parse_dates=["date"])
-    df = df.rename(columns={"ano_91-20": "anom9120", "2t": "abs_t"})
-    df["year"] = df["date"].dt.year
-    df["month"] = df["date"].dt.month
-    df["day"] = df["date"].dt.day
-    df["anom"] = df["anom9120"] + df["month"].map(MONTHLY_PREINDUSTRIAL_OFFSETS)
-    # Drop Feb 29 so every year aligns to 1..365.
-    noleap = df[~((df["month"] == 2) & (df["day"] == 29))].copy()
-    noleap["doy"] = noleap.groupby("year").cumcount() + 1
-    df = df.merge(noleap[["date", "doy"]], on="date", how="left")
-    return df
+def read_csv_text() -> str:
+    if ERA5_CSV:
+        with open(ERA5_CSV, "r") as f:
+            return f.read()
+    req = urllib.request.Request(ERA5_URL, headers={"User-Agent": "zekehausfather.com/1.0"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return r.read().decode("utf-8")
+
+
+def load_daily():
+    """Return rows sorted by date: list of dicts with date, year, month, anom, doy."""
+    text = read_csv_text()
+    # Strip leading comment lines so the header row is first.
+    lines = [ln for ln in text.splitlines() if not ln.startswith("#")]
+    reader = csv.DictReader(io.StringIO("\n".join(lines)))
+
+    rows = []
+    for r in reader:
+        ds = (r.get("date") or "").strip()
+        raw = (r.get("ano_91-20") or "").strip()
+        if not ds or not raw:
+            continue
+        try:
+            d = datetime.strptime(ds, "%Y-%m-%d")
+            anom9120 = float(raw)
+        except ValueError:
+            continue
+        anom = anom9120 + MONTHLY_PREINDUSTRIAL_OFFSETS[d.month]
+        rows.append({
+            "date": ds, "dt": d, "year": d.year, "month": d.month,
+            "day": d.day, "anom": anom,
+        })
+
+    rows.sort(key=lambda x: x["dt"])
+
+    # Day-of-year aligned to 1..365 with Feb 29 dropped (so every year lines up).
+    doy_by_year = {}
+    for row in rows:
+        if row["month"] == 2 and row["day"] == 29:
+            row["doy"] = None
+            continue
+        n = doy_by_year.get(row["year"], 0) + 1
+        doy_by_year[row["year"]] = n
+        row["doy"] = n
+    return rows
 
 
 def main() -> None:
-    df = load_daily()
+    rows = load_daily()
+    if not rows:
+        raise SystemExit("No ERA5 rows parsed — aborting (kept existing JSON).")
 
-    years = sorted(df["year"].unique().tolist())
-    series = {}
+    years = sorted({r["year"] for r in rows})
+
+    # 365-length daily series per year, aligned by day-of-year.
+    series = {str(y): [None] * 365 for y in years}
+    for r in rows:
+        doy = r["doy"]
+        if doy and 1 <= doy <= 365:
+            series[str(r["year"])][doy - 1] = round(r["anom"], 3)
+
+    # Annual means + day counts.
+    annual_list = []
     for y in years:
-        sub = df[df["year"] == y].sort_values("doy")
-        # 365-length list aligned by day-of-year; None where the year is incomplete.
-        vals = [None] * 365
-        for doy, anom in zip(sub["doy"], sub["anom"]):
-            if pd.notna(doy) and 1 <= int(doy) <= 365:
-                vals[int(doy) - 1] = round(float(anom), 3)
-        series[str(y)] = vals
-
-    annual = (
-        df.groupby("year")["anom"].agg(["mean", "count"]).reset_index()
-    )
-    annual_list = [
-        {"year": int(r.year), "anom": round(float(r.mean), 3), "days": int(r.count)}
-        for r in annual.itertuples()
-    ]
+        vals = [r["anom"] for r in rows if r["year"] == y]
+        annual_list.append({
+            "year": y,
+            "anom": round(sum(vals) / len(vals), 3),
+            "days": len(vals),
+        })
     complete = [a for a in annual_list if a["days"] >= 360]
 
-    latest_row = df.sort_values("date").iloc[-1]
-    latest = {
-        "date": latest_row["date"].strftime("%Y-%m-%d"),
-        "anom": round(float(latest_row["anom"]), 3),
-    }
+    latest_row = rows[-1]
+    latest = {"date": latest_row["date"], "anom": round(latest_row["anom"], 3)}
 
-    # Headline stats
     hottest = max(complete, key=lambda a: a["anom"]) if complete else None
-    last_365 = df.sort_values("date").tail(365)
-    last_365_mean = round(float(last_365["anom"].mean()), 3)
+    last_365 = rows[-365:]
+    last_365_mean = round(sum(r["anom"] for r in last_365) / len(last_365), 3)
     days_over_15 = {
-        str(y): int((df[df["year"] == y]["anom"] >= 1.5).sum())
+        str(y): sum(1 for r in rows if r["year"] == y and r["anom"] >= 1.5)
         for y in (2023, 2024, 2025, 2026)
         if y in years
     }
@@ -107,8 +149,9 @@ def main() -> None:
     with open(OUT_PATH, "w") as f:
         json.dump(out, f, separators=(",", ":"))
 
+    src = ERA5_CSV if ERA5_CSV else ERA5_URL
     size_kb = os.path.getsize(OUT_PATH) / 1024
-    print(f"Wrote {OUT_PATH} ({size_kb:.0f} KB)")
+    print(f"Wrote {OUT_PATH} ({size_kb:.0f} KB) from {src}")
     print(f"  years: {years[0]}-{years[-1]}  latest: {latest['date']} = {latest['anom']}C")
     if hottest:
         print(f"  hottest complete year: {hottest['year']} = {hottest['anom']}C")

@@ -40,16 +40,11 @@ jobs:
           python3 scripts/update_feeds.py media
           python3 scripts/update_publications.py
 
-      # Optional: refresh the ERA5 chart data if a hosted CSV URL is configured.
-      # Set the repository variable ERA5_CSV_URL (Settings → Secrets and variables
-      # → Actions → Variables) to a public link to the daily ERA5 series CSV.
-      - name: Refresh ERA5 temperature data
-        if: ${{ vars.ERA5_CSV_URL != '' }}
-        env:
-          ERA5_CSV_URL: ${{ vars.ERA5_CSV_URL }}
-        run: |
-          curl -fsSL "$ERA5_CSV_URL" -o /tmp/era5.csv
-          ERA5_CSV=/tmp/era5.csv python3 scripts/process_era5.py
+      # Refresh the hero "live climate data" card from the same Copernicus
+      # Climate Pulse daily series the Climate Dashboard uses (process_era5.py
+      # fetches it directly by default — stdlib only, no pip).
+      - name: Refresh ERA5 temperature data (daily)
+        run: python3 scripts/process_era5.py
 
       - name: Commit refreshed data
         run: |
