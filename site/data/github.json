@@ -4,6 +4,14 @@
   "updated": "2026-06-29",
   "repos": [
     {
+      "name": "climate-dashboard",
+      "url": "https://github.com/hausfath/climate-dashboard",
+      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
+      "language": "Python",
+      "stars": 5,
+      "updated": "2026-06-29"
+    },
+    {
       "name": "gas_ccs_map",
       "url": "https://github.com/hausfath/gas_ccs_map",
       "description": "Interactive map of US natural-gas power plants with least-cost CO2 transport & geologic storage costs (CCS siting screening tool)",
@@ -18,14 +26,6 @@
       "language": "Python",
       "stars": 0,
       "updated": "2026-06-29"
-    },
-    {
-      "name": "climate-dashboard",
-      "url": "https://github.com/hausfath/climate-dashboard",
-      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
-      "language": "Python",
-      "stars": 5,
-      "updated": "2026-06-28"
     },
     {
       "name": "space_datacenters",
