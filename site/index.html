@@ -65,7 +65,7 @@
 <section class="hero" id="hero">
   <div class="hero__inner">
     <div class="hero__text" data-reveal>
-      <p class="eyebrow">Climate Scientist · Energy Systems · Science Communication</p>
+      <p class="eyebrow">Climate Science · Energy Systems · <span class="nowrap">Science Communication</span></p>
       <h1 class="hero__title">Zeke<br>Hausfather</h1>
       <p class="hero__lede">I study global temperatures, assess the performance of climate models, explore pathways that take us to net&nbsp;zero, and work to scale durable carbon removal.</p>
       <div class="hero__affil">
@@ -175,8 +175,9 @@
           <span><b>LinkedIn</b>Zeke Hausfather</span><span class="social__arrow">↗</span>
         </a>
       </div>
-      <div class="social__embed" id="socialEmbed">
-        <a class="twitter-timeline" data-theme="dark" data-chrome="noheader nofooter transparent noborders" data-height="540" data-dnt="true" href="https://twitter.com/hausfath?ref_src=twsrc%5Etfw">Posts by @hausfath</a>
+      <div class="social__embed">
+        <span class="social__embed-label">Latest on Bluesky</span>
+        <div class="bskyfeed" id="socialEmbed"><p class="feed__loading">Loading posts…</p></div>
       </div>
     </aside>
   </div>
@@ -435,6 +436,5 @@
 
 <script src="js/viz.js" defer></script>
 <script src="js/main.js" defer></script>
-<script>window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return window.twttr;}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f);}});}(document,"script","twitter-wjs"));</script>
 </body>
 </html>

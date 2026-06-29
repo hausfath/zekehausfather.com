@@ -30,8 +30,8 @@
   --accent:    var(--orange);
   --accent-2:  var(--gold);
 
-  --maxw: 1180px;
-  --pad: clamp(20px, 5vw, 72px);
+  --maxw: 1300px;
+  --pad: clamp(20px, 4vw, 52px);
 
   --serif: "Fraunces", Georgia, "Times New Roman", serif;
   --sans:  "Hanken Grotesk", system-ui, sans-serif;
@@ -48,7 +48,7 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: var(--sans);
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.65;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -76,6 +76,7 @@ h1, h2, h3, h4 { margin: 0; font-weight: 500; letter-spacing: -0.01em; }
   margin: 0 0 1.2rem;
 }
 .eyebrow--accent { color: var(--accent); }
+.nowrap { white-space: nowrap; }
 
 .section {
   max-width: var(--maxw);
@@ -332,8 +333,22 @@ main, .footer { position: relative; z-index: 1; }
 .social__link span:not(.social__arrow) { display: flex; flex-direction: column; line-height: 1.25; font-size: 12px; color: var(--ink-faint); }
 .social__link b { color: var(--ink); font-weight: 600; font-size: 14px; }
 .social__arrow { margin-left: auto; color: var(--ink-faint); font-family: var(--mono); }
-.social__embed { min-height: 120px; border-top: 1px solid var(--line-soft); padding-top: 14px; }
-.social__embed iframe { border-radius: 8px !important; }
+.social__embed { border-top: 1px solid var(--line-soft); padding-top: 14px; }
+.social__embed-label { display: block; font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 12px; }
+.bskyfeed { display: grid; gap: 10px; }
+.bskypost {
+  display: grid; gap: 7px; padding: 12px 13px;
+  border: 1px solid var(--line); border-radius: 10px; background: color-mix(in srgb,var(--bg-1) 50%, transparent);
+  transition: border-color 0.25s, background 0.25s, transform 0.25s;
+}
+.bskypost:hover { border-color: color-mix(in srgb,var(--accent) 45%, var(--line)); background: color-mix(in srgb,var(--accent) 5%, transparent); transform: translateY(-1px); }
+.bskypost__text {
+  color: var(--ink-soft); font-size: 13.5px; line-height: 1.5;
+  display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+}
+.bskypost:hover .bskypost__text { color: var(--ink); }
+.bskypost__meta { font-family: var(--mono); font-size: 10.5px; color: var(--ink-faint); letter-spacing: 0.02em; }
+.bskypost--fallback { justify-items: start; color: var(--accent); font-family: var(--mono); font-size: 12px; }
 
 /* ===================== PUBLICATIONS ===================== */
 .pubs { list-style: none; margin: 0; padding: 0; }

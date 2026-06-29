@@ -90,6 +90,41 @@
     });
   }
 
+  /* ---------- Bluesky feed (live, public API — CORS-enabled, no auth) ---------- */
+  function loadSocial() {
+    const el = document.getElementById("socialEmbed");
+    if (!el) return;
+    const API = "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed" +
+      "?actor=hausfath.bsky.social&limit=20&filter=posts_no_replies";
+    fetch(API)
+      .then((r) => { if (!r.ok) throw new Error("bsky " + r.status); return r.json(); })
+      .then((d) => {
+        const posts = (d.feed || [])
+          .filter((it) => !it.reason)                 // drop reposts; keep his own posts
+          .map((it) => it.post)
+          .filter((p) => p && p.record && p.record.text)
+          .slice(0, 4);
+        if (!posts.length) throw new Error("no posts");
+        el.innerHTML = posts.map((p) => {
+          const rkey = (p.uri || "").split("/").pop();
+          const handle = (p.author && p.author.handle) || "hausfath.bsky.social";
+          const url = "https://bsky.app/profile/" + handle + "/post/" + rkey;
+          const dt = fmtDate((p.record.createdAt || "").slice(0, 10));
+          const stats = [
+            p.repostCount ? "↻ " + p.repostCount : "",
+            p.likeCount ? "♥ " + p.likeCount : "",
+          ].filter(Boolean).join("  ");
+          return `<a class="bskypost" href="${url}" target="_blank" rel="noopener">
+            <span class="bskypost__text">${esc(p.record.text)}</span>
+            <span class="bskypost__meta">${dt.full || ""}${stats ? " · " + stats : ""}</span>
+          </a>`;
+        }).join("");
+      })
+      .catch(() => {
+        el.innerHTML = '<a class="bskypost bskypost--fallback" href="https://bsky.app/profile/hausfath.bsky.social" target="_blank" rel="noopener">See the latest on Bluesky ↗</a>';
+      });
+  }
+
   /* ---------- full publications list ----------
      Fallback only. The live list is data/publications.json, refreshed weekly
      from OpenAlex by scripts/update_publications.py. This hardcoded copy is
@@ -208,6 +243,7 @@
     loadFeeds();
     loadMedia();
     loadGithub();
+    loadSocial();
     buildFullPubs();
     initNav();
     initReveal();
