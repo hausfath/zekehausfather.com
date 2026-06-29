@@ -7,4 +7,3 @@ __pycache__/
 # stray / non-site files (not deployed)
 /unnamed.png
 /*.pdf
-/pending-CNAME
