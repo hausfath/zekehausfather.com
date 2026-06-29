@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+/tmp/
+
+# stray / non-site files (not deployed)
+/unnamed.png
+/*.pdf
+/pending-CNAME

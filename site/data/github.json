@@ -1,0 +1,55 @@
+{
+  "source": "GitHub",
+  "profile_url": "https://github.com/hausfath",
+  "updated": "2026-06-29",
+  "repos": [
+    {
+      "name": "climate-dashboard",
+      "url": "https://github.com/hausfath/climate-dashboard",
+      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
+      "language": "Python",
+      "stars": 5,
+      "updated": "2026-06-28"
+    },
+    {
+      "name": "gas_ccs_map",
+      "url": "https://github.com/hausfath/gas_ccs_map",
+      "description": "Interactive map of US natural-gas power plants with least-cost CO2 transport & geologic storage costs (CCS siting screening tool)",
+      "language": "Python",
+      "stars": 0,
+      "updated": "2026-06-26"
+    },
+    {
+      "name": "space_datacenters",
+      "url": "https://github.com/hausfath/space_datacenters",
+      "description": "Screening-level lifecycle greenhouse-gas comparison of a solar-powered orbital AI datacenter against ground-based options (gas, solar+storage, nuclear).",
+      "language": "Python",
+      "stars": 0,
+      "updated": "2026-06-25"
+    },
+    {
+      "name": "biomass_map",
+      "url": "https://github.com/hausfath/biomass_map",
+      "description": "Interactive BiCRS/BECCS feedstock, CO2 storage & best-use-of-biomass map (Frontier strategy tool)",
+      "language": "Python",
+      "stars": 0,
+      "updated": "2026-06-24"
+    },
+    {
+      "name": "atmospheric_concentrations",
+      "url": "https://github.com/hausfath/atmospheric_concentrations",
+      "description": "",
+      "language": "Python",
+      "stars": 5,
+      "updated": "2026-06-09"
+    },
+    {
+      "name": "SimMod",
+      "url": "https://github.com/hausfath/SimMod",
+      "description": "Python Simple Climate Model",
+      "language": "Python",
+      "stars": 71,
+      "updated": "2018-06-22"
+    }
+  ]
+}

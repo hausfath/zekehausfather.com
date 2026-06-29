@@ -1,0 +1,79 @@
+name: Update feeds & deploy
+
+# Refresh the blog / media feeds on a schedule, commit any changes, then publish
+# the static site to GitHub Pages. Also runs on push to main and on demand.
+on:
+  schedule:
+    - cron: "0 11 * * *"   # daily at 11:00 UTC — blog & media feeds
+    - cron: "0 12 * * 1"   # Mondays at 12:00 UTC — also refresh publications
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit refreshed data back to the repo
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh blog & GitHub feeds (daily)
+        run: python3 scripts/update_feeds.py blog github
+
+      # Media coverage (GDELT + Google News) and publications change slowly, so
+      # refresh them only on the weekly trigger (Monday cron) or a manual run.
+      - name: Refresh media & publications (weekly)
+        if: ${{ github.event.schedule == '0 12 * * 1' || github.event_name == 'workflow_dispatch' }}
+        run: |
+          python3 scripts/update_feeds.py media
+          python3 scripts/update_publications.py
+
+      # Optional: refresh the ERA5 chart data if a hosted CSV URL is configured.
+      # Set the repository variable ERA5_CSV_URL (Settings → Secrets and variables
+      # → Actions → Variables) to a public link to the daily ERA5 series CSV.
+      - name: Refresh ERA5 temperature data
+        if: ${{ vars.ERA5_CSV_URL != '' }}
+        env:
+          ERA5_CSV_URL: ${{ vars.ERA5_CSV_URL }}
+        run: |
+          curl -fsSL "$ERA5_CSV_URL" -o /tmp/era5.csv
+          ERA5_CSV=/tmp/era5.csv python3 scripts/process_era5.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add site/data/*.json
+          if git diff --staged --quiet; then
+            echo "No feed changes."
+          else
+            git commit -m "chore: refresh feeds [skip ci]"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,133 @@
+{
+  "source": "Media coverage",
+  "updated": "2026-06-29",
+  "note": "Curated highlights plus major-outlet coverage from GDELT and Google News (past 12 months).",
+  "items": [
+    {
+      "title": "Europe's record heatwave: does the continent have a new climate?",
+      "outlet": "Nature",
+      "url": "https://www.nature.com/articles/d41586-026-02046-x",
+      "date": "2026-06-26",
+      "note": "Quoted on Europe's accelerated warming: 'Particularly since 1980, there's just been this enormous spike in temperatures.'"
+    },
+    {
+      "title": "Beyond Denial: How Oil Execs Shaped a Landmark Climate Study",
+      "outlet": "ProPublica / Drilled",
+      "url": "https://www.propublica.org/article/wedges-climate-research-bp-fossil-fuel-princeton",
+      "date": "2026-06-25",
+      "note": "Quoted that after decades of delay, holding warming to the old targets has become 'functionally impossible.'"
+    },
+    {
+      "title": "Why a notably warm start to the year foreshadows what's ahead",
+      "outlet": "The Washington Post",
+      "url": "https://www.washingtonpost.com/weather/2026/06/12/why-notably-warm-start-year-foreshadows-whats-ahead/",
+      "date": "2026-06-12",
+      "note": "Featured his Climate Dashboard and 2026/2027 global temperature projections."
+    },
+    {
+      "title": "Why climate scientists have dropped a worst-case scenario",
+      "outlet": "The Christian Science Monitor",
+      "url": "https://www.csmonitor.com/Environment/2026/0603/climate-change-rcp-8.5",
+      "date": "2026-06-03",
+      "note": "Quoted on how RCP8.5 wrongly became known as the 'business as usual' scenario through a game of telephone."
+    },
+    {
+      "title": "Prepare for El Niño, UN warns: it could be the strongest in decades",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/resources/idt-54f4e985-a7fb-48b2-8246-f3be0d699402",
+      "date": "2026-06-02",
+      "note": "Quoted that 2027 is very likely to be the world's warmest year on record; the feature used his El Niño forecast."
+    },
+    {
+      "title": "Climate Change's Worst-Case Scenario Is Officially Canceled",
+      "outlet": "The New York Times",
+      "url": "https://www.nytimes.com/2026/05/26/climate/emissions-worst-case-scenario-rcp.html",
+      "date": "2026-05-26",
+      "note": "On the retirement of the RCP8.5 worst-case scenario, drawing on his work with Glen Peters."
+    },
+    {
+      "title": "WATCH — Why El Niño could make 2026 the hottest year ever recorded | videoclip | Kids News",
+      "outlet": "CBC News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeFhEaTJYS0dUbkdDM1djSjRLMlg1OGNMYzh3dG5qZG5oLWdjUngwOTVqT01JcWZ0NjUtdW94QUdneVZBTlhCa3dqcFNsUUlXUkl5anlEZm9yb2tfaUlxNjFxdmJWUHVMM1g1b1dTc3FnR2Y2eHBPREQ1NFMtZTkwS0JBNFRJNU9zc3hKdENWeXFnUHpfZDFKYUpibGpFdw?oc=5",
+      "date": "2026-03-24",
+      "note": ""
+    },
+    {
+      "title": "A dramatic, record-setting El Niño may be brewing, forecasters say",
+      "outlet": "USA Today",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUVlZUXdVRHIxUW53b29BV2JoZ2drX1FZWXNPbGpDODJjQU9VRm5FcEx3dXJJV21sbllISEdfT0hBdWFwU01LRENCSlpFb1JWNktsLUZhV051eFdXMjJpMGJVejFVQ19DcUNGdWhPMTMzMlVuc19XZGFRbDBoUU94UXQzbXJRZDMtRnB2VGhxMHNDSzdVSk1UZnRfT2FmdzN6bFVzZlBR?oc=5",
+      "date": "2026-03-12",
+      "note": ""
+    },
+    {
+      "title": "Scientists change how El Niño is labeled to keep up with spike in temperature",
+      "outlet": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/02/20/el-nino-la-nina-climate-change-warming/",
+      "date": "2026-02-20",
+      "note": "Cited on shifting El Niño/La Niña baselines amid record warmth."
+    },
+    {
+      "title": "See how climate change is accelerating",
+      "outlet": "The Washington Post",
+      "url": "https://www.washingtonpost.com/climate-environment/interactive/2026/climate-change-temperature-rate-accelerating/",
+      "date": "2026-02-11",
+      "note": "Quoted: 'There is greater acceptance now that there is a detectable acceleration of warming.'"
+    },
+    {
+      "title": "2025 was Earth's 3rd-warmest year on record",
+      "outlet": "Yale Climate Connections",
+      "url": "https://yaleclimateconnections.org/2026/01/2025-was-earths-3rd-warmest-year-on-record/",
+      "date": "2026-01-15",
+      "note": "Cited on 2025 temperatures (~1.44°C above preindustrial) despite La Niña."
+    },
+    {
+      "title": "2025 was another exceptionally hot year",
+      "outlet": "Yale Environment 360",
+      "url": "https://e360.yale.edu/digest/2025-second-hottest-year",
+      "date": "2025-12-30",
+      "note": "Cited via his Carbon Brief analysis of the drivers of recent warming."
+    },
+    {
+      "title": "This chart shows that progress has actually been made on climate change",
+      "outlet": "Axios",
+      "url": "https://www.axios.com/2025/11/13/climate-change-progress-chart-co2-emissions",
+      "date": "2025-11-13",
+      "note": "Quoted on bending the emissions curve away from worst-case warming scenarios."
+    },
+    {
+      "title": "Marine heatwave over Pacific Ocean could lead to flooding in north-west",
+      "outlet": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQmdISm9PYXdFNE5vNXJmdC11di14Q2JnMlUzQjhVSUhhZUhqaEE3RnNNTm84dUgtM1hPRWhlMWtuX0w2eTlTQ1d4RkRrTVdwWW9rUmhyVTRVdUkxZnNaTTNIU3BsSEdjLWJsMjJWdXFTQWtDT0ZhQ25RajlwWGwzZnc5a2w3TVFESHdFRnNwdHZodw?oc=5",
+      "date": "2025-10-23",
+      "note": ""
+    },
+    {
+      "title": "Opinion | Turns Out Air Pollution Was Good for Something",
+      "outlet": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZl9ITGJPd3RaR3ZyWTZJOGpHWlBvT1ZaLXVzc2lwNEkzMFlydVlIYWhSalRheFlvOTJFaFE0eDVUaXVaQ2VRWkFGbUhhUS1JU0tUelBFUUs4Tkk2WWQ3TUptYzF6bDZRNlFTZ2MxVGcyd0tLNjdBLV9BMDJLM29nY2FaLVU4aGtQN2REbQ?oc=5",
+      "date": "2025-09-21",
+      "note": ""
+    },
+    {
+      "title": "Climate change is accelerating, scientists find in 'grim' report",
+      "outlet": "Yale Climate Connections",
+      "url": "https://yaleclimateconnections.org/2025/09/climate-change-is-accelerating-scientists-find-in-grim-report/",
+      "date": "2025-09-01",
+      "note": "Quoted as a co-author of the Indicators of Global Climate Change study."
+    },
+    {
+      "title": "Takeaways from scientists on the Trump administration's work on climate change",
+      "outlet": "Associated Press",
+      "url": "https://apnews.com/",
+      "date": "2025-08-26",
+      "note": "Quoted criticizing a DOE/EPA report for misusing a metric from his climate-model research."
+    },
+    {
+      "title": "Energy Dept. Attacks Climate Science in Contentious Report",
+      "outlet": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOelJmZ3ZURjQzXzluVzBmazN4Yi12aTRPNEFDOEpGb0NoaWsxTDFZZ01rb1FMVDlla2VVUG9kQ2k1Y2Qxc1RsNXVJb2F3d0pqTFpBVlBsandDNmMtSHEteXF3bkx2RksxS3l5S2ttcXlSVW5HbktpY1d4VVZnNG5haDRmRkxwc1E0MzEwNnJB?oc=5",
+      "date": "2025-08-02",
+      "note": ""
+    }
+  ]
+}
