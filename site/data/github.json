@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-06-29",
+  "updated": "2026-06-30",
   "repos": [
     {
       "name": "climate-dashboard",
@@ -9,7 +9,7 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 5,
-      "updated": "2026-06-29"
+      "updated": "2026-06-30"
     },
     {
       "name": "gas_ccs_map",
