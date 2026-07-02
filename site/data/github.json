@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-07-01",
+  "updated": "2026-07-02",
   "repos": [
     {
       "name": "climate-dashboard",
@@ -9,7 +9,15 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 5,
-      "updated": "2026-07-01"
+      "updated": "2026-07-02"
+    },
+    {
+      "name": "bicrs-map-uk",
+      "url": "https://github.com/hausfath/bicrs-map-uk",
+      "description": "UK BiCRS Atlas — interactive feedstock, CO2 storage & best-use-of-biomass map for the United Kingdom (UK subset of Frontier's BiCRS Atlas)",
+      "language": "JavaScript",
+      "stars": 0,
+      "updated": "2026-07-02"
     },
     {
       "name": "biomass_map",
@@ -42,14 +50,6 @@
       "language": "Python",
       "stars": 5,
       "updated": "2026-06-09"
-    },
-    {
-      "name": "SimMod",
-      "url": "https://github.com/hausfath/SimMod",
-      "description": "Python Simple Climate Model",
-      "language": "Python",
-      "stars": 71,
-      "updated": "2018-06-22"
     }
   ]
 }
