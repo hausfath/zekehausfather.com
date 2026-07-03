@@ -4,6 +4,14 @@
   "updated": "2026-07-03",
   "repos": [
     {
+      "name": "land_ocean_ensembles",
+      "url": "https://github.com/hausfath/land_ocean_ensembles",
+      "description": "10,000-member annual ensembles of global land (LSAT) and ocean (SST) temperature, 1850-2025, built from 5 LSAT + 4 SST products via a Thorne et al. (2026) style family-tree weighting.",
+      "language": "Python",
+      "stars": 0,
+      "updated": "2026-07-03"
+    },
+    {
       "name": "climate-dashboard",
       "url": "https://github.com/hausfath/climate-dashboard",
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
@@ -42,14 +50,6 @@
       "language": "Python",
       "stars": 0,
       "updated": "2026-06-29"
-    },
-    {
-      "name": "space_datacenters",
-      "url": "https://github.com/hausfath/space_datacenters",
-      "description": "Screening-level lifecycle greenhouse-gas comparison of a solar-powered orbital AI datacenter against ground-based options (gas, solar+storage, nuclear).",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-06-25"
     }
   ]
 }
