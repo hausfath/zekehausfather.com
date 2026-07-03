@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-07-02",
+  "updated": "2026-07-03",
   "repos": [
     {
       "name": "climate-dashboard",
@@ -9,6 +9,14 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 5,
+      "updated": "2026-07-03"
+    },
+    {
+      "name": "saf-vs-cdr-explorer",
+      "url": "https://github.com/hausfath/saf-vs-cdr-explorer",
+      "description": "Interactive explorer: sustainable aviation fuel vs carbon removal — cost per tonne of CO2 across 14 biomass pathways, with adjustable assumptions",
+      "language": "HTML",
+      "stars": 0,
       "updated": "2026-07-02"
     },
     {
@@ -42,14 +50,6 @@
       "language": "Python",
       "stars": 0,
       "updated": "2026-06-25"
-    },
-    {
-      "name": "atmospheric_concentrations",
-      "url": "https://github.com/hausfath/atmospheric_concentrations",
-      "description": "",
-      "language": "Python",
-      "stars": 5,
-      "updated": "2026-06-09"
     }
   ]
 }
