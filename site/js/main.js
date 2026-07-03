@@ -94,8 +94,11 @@
   function loadSocial() {
     const el = document.getElementById("socialEmbed");
     if (!el) return;
+    // Use the stable DID (not the handle) so the feed keeps working if the
+    // Bluesky handle changes (e.g. to a domain handle like @zekehausfather.com).
+    const DID = "did:plc:r5ofoghdcbtjqiujqpvja4uh";
     const API = "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed" +
-      "?actor=hausfath.bsky.social&limit=20&filter=posts_no_replies";
+      "?actor=" + DID + "&limit=20&filter=posts_no_replies";
     fetch(API)
       .then((r) => { if (!r.ok) throw new Error("bsky " + r.status); return r.json(); })
       .then((d) => {
@@ -107,7 +110,7 @@
         if (!posts.length) throw new Error("no posts");
         el.innerHTML = posts.map((p) => {
           const rkey = (p.uri || "").split("/").pop();
-          const handle = (p.author && p.author.handle) || "hausfath.bsky.social";
+          const handle = (p.author && p.author.handle) || DID;
           const url = "https://bsky.app/profile/" + handle + "/post/" + rkey;
           const dt = fmtDate((p.record.createdAt || "").slice(0, 10));
           const stats = [
@@ -121,7 +124,7 @@
         }).join("");
       })
       .catch(() => {
-        el.innerHTML = '<a class="bskypost bskypost--fallback" href="https://bsky.app/profile/hausfath.bsky.social" target="_blank" rel="noopener">See the latest on Bluesky ↗</a>';
+        el.innerHTML = '<a class="bskypost bskypost--fallback" href="https://bsky.app/profile/' + DID + '" target="_blank" rel="noopener">See the latest on Bluesky ↗</a>';
       });
   }
 
