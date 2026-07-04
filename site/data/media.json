@@ -1,6 +1,6 @@
 {
   "source": "Media coverage",
-  "updated": "2026-06-29",
+  "updated": "2026-07-03",
   "note": "Curated highlights plus major-outlet coverage from GDELT and Google News (past 12 months).",
   "items": [
     {
@@ -128,6 +128,27 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOelJmZ3ZURjQzXzluVzBmazN4Yi12aTRPNEFDOEpGb0NoaWsxTDFZZ01rb1FMVDlla2VVUG9kQ2k1Y2Qxc1RsNXVJb2F3d0pqTFpBVlBsandDNmMtSHEteXF3bkx2RksxS3l5S2ttcXlSVW5HbktpY1d4VVZnNG5haDRmRkxwc1E0MzEwNnJB?oc=5",
       "date": "2025-08-02",
       "note": ""
+    },
+    {
+      "title": "Can the clean-energy revolution save us from climate catastrophe?",
+      "outlet": "Nature",
+      "url": "https://www.nature.com/immersive/d41586-026-00332-2/index.html",
+      "date": "2026-02-11",
+      "note": "Quoted on the clean-energy transition — 'Every unit of renewable energy that is used instead of coal is a good thing' — and that ultimately 'what matters is cumulative emissions.'"
+    },
+    {
+      "title": "AI Scientists Help Human Ones Answer Urgent Climate Questions",
+      "outlet": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-13/ai-scientists-help-human-ones-answer-urgent-climate-questions",
+      "date": "2026-03-13",
+      "note": "Featured on how AI tools are helping researchers tackle urgent climate questions."
+    },
+    {
+      "title": "How to vibe code in science: early adopters share their tips",
+      "outlet": "Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01477-w",
+      "date": "2026-05-12",
+      "note": "Featured for using AI to code new climate-data visualizations, including his 3D tree-ring temperature plots."
     }
   ]
 }
