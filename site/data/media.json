@@ -1,6 +1,6 @@
 {
   "source": "Media coverage",
-  "updated": "2026-07-03",
+  "updated": "2026-07-06",
   "note": "Curated highlights plus major-outlet coverage from GDELT and Google News (past 12 months).",
   "items": [
     {
@@ -46,11 +46,25 @@
       "note": "On the retirement of the RCP8.5 worst-case scenario, drawing on his work with Glen Peters."
     },
     {
+      "title": "How to vibe code in science: early adopters share their tips",
+      "outlet": "Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01477-w",
+      "date": "2026-05-12",
+      "note": "Featured for using AI to code new climate-data visualizations, including his 3D tree-ring temperature plots."
+    },
+    {
       "title": "WATCH — Why El Niño could make 2026 the hottest year ever recorded | videoclip | Kids News",
       "outlet": "CBC News",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeFhEaTJYS0dUbkdDM1djSjRLMlg1OGNMYzh3dG5qZG5oLWdjUngwOTVqT01JcWZ0NjUtdW94QUdneVZBTlhCa3dqcFNsUUlXUkl5anlEZm9yb2tfaUlxNjFxdmJWUHVMM1g1b1dTc3FnR2Y2eHBPREQ1NFMtZTkwS0JBNFRJNU9zc3hKdENWeXFnUHpfZDFKYUpibGpFdw?oc=5",
       "date": "2026-03-24",
       "note": ""
+    },
+    {
+      "title": "AI Scientists Help Human Ones Answer Urgent Climate Questions",
+      "outlet": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-13/ai-scientists-help-human-ones-answer-urgent-climate-questions",
+      "date": "2026-03-13",
+      "note": "Featured on how AI tools are helping researchers tackle urgent climate questions."
     },
     {
       "title": "A dramatic, record-setting El Niño may be brewing, forecasters say",
@@ -72,6 +86,13 @@
       "url": "https://www.washingtonpost.com/climate-environment/interactive/2026/climate-change-temperature-rate-accelerating/",
       "date": "2026-02-11",
       "note": "Quoted: 'There is greater acceptance now that there is a detectable acceleration of warming.'"
+    },
+    {
+      "title": "Can the clean-energy revolution save us from climate catastrophe?",
+      "outlet": "Nature",
+      "url": "https://www.nature.com/immersive/d41586-026-00332-2/index.html",
+      "date": "2026-02-11",
+      "note": "Quoted on the clean-energy transition — 'Every unit of renewable energy that is used instead of coal is a good thing' — and that ultimately 'what matters is cumulative emissions.'"
     },
     {
       "title": "2025 was Earth's 3rd-warmest year on record",
@@ -128,27 +149,6 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOelJmZ3ZURjQzXzluVzBmazN4Yi12aTRPNEFDOEpGb0NoaWsxTDFZZ01rb1FMVDlla2VVUG9kQ2k1Y2Qxc1RsNXVJb2F3d0pqTFpBVlBsandDNmMtSHEteXF3bkx2RksxS3l5S2ttcXlSVW5HbktpY1d4VVZnNG5haDRmRkxwc1E0MzEwNnJB?oc=5",
       "date": "2025-08-02",
       "note": ""
-    },
-    {
-      "title": "Can the clean-energy revolution save us from climate catastrophe?",
-      "outlet": "Nature",
-      "url": "https://www.nature.com/immersive/d41586-026-00332-2/index.html",
-      "date": "2026-02-11",
-      "note": "Quoted on the clean-energy transition — 'Every unit of renewable energy that is used instead of coal is a good thing' — and that ultimately 'what matters is cumulative emissions.'"
-    },
-    {
-      "title": "AI Scientists Help Human Ones Answer Urgent Climate Questions",
-      "outlet": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-13/ai-scientists-help-human-ones-answer-urgent-climate-questions",
-      "date": "2026-03-13",
-      "note": "Featured on how AI tools are helping researchers tackle urgent climate questions."
-    },
-    {
-      "title": "How to vibe code in science: early adopters share their tips",
-      "outlet": "Nature",
-      "url": "https://www.nature.com/articles/d41586-026-01477-w",
-      "date": "2026-05-12",
-      "note": "Featured for using AI to code new climate-data visualizations, including his 3D tree-ring temperature plots."
     }
   ]
 }

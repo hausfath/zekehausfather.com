@@ -1,7 +1,7 @@
 {
   "source": "OpenAlex",
   "author_url": "https://openalex.org/A5085329398",
-  "updated": "2026-06-29",
+  "updated": "2026-07-06",
   "count": 39,
   "publications": [
     {
@@ -9,7 +9,7 @@
       "title": "Ocean Heat Content Sets Another Record in 2025",
       "venue": "Advances in Atmospheric Sciences",
       "url": "https://doi.org/10.1007/s00376-026-5876-0",
-      "cites": 9
+      "cites": 10
     },
     {
       "year": 2026,
@@ -23,7 +23,7 @@
       "title": "Indicators of Global Climate Change 2024: annual update of key indicators of the state of the climate system and human influence",
       "venue": "Earth system science data",
       "url": "https://doi.org/10.5194/essd-17-2641-2025",
-      "cites": 136
+      "cites": 141
     },
     {
       "year": 2025,
@@ -65,7 +65,7 @@
       "title": "Mechanisms and Impacts of Earth System Tipping Elements",
       "venue": "Reviews of Geophysics",
       "url": "https://doi.org/10.1029/2021rg000757",
-      "cites": 122
+      "cites": 123
     },
     {
       "year": 2023,
@@ -86,7 +86,7 @@
       "title": "Climate simulations: recognize the ‘hot model’ problem",
       "venue": "Nature",
       "url": "https://doi.org/10.1038/d41586-022-01192-2",
-      "cites": 506
+      "cites": 509
     },
     {
       "year": 2022,
@@ -121,42 +121,42 @@
       "title": "An Assessment of Earth's Climate Sensitivity Using Multiple Lines of Evidence",
       "venue": "Reviews of Geophysics",
       "url": "https://doi.org/10.1029/2019rg000678",
-      "cites": 1289
+      "cites": 1291
     },
     {
       "year": 2020,
       "title": "Emissions – the ‘business as usual’ story is misleading",
       "venue": "Nature",
       "url": "https://doi.org/10.1038/d41586-020-00177-3",
-      "cites": 1211
+      "cites": 1213
     },
     {
       "year": 2020,
       "title": "The Berkeley Earth Land/Ocean Temperature Record",
       "venue": "Earth system science data",
       "url": "https://doi.org/10.5194/essd-12-3469-2020",
-      "cites": 518
+      "cites": 519
     },
     {
       "year": 2020,
       "title": "RCP8.5 is a problematic scenario for near-term emissions",
       "venue": "Proceedings of the National Academy of Sciences",
       "url": "https://doi.org/10.1073/pnas.2017124117",
-      "cites": 148
+      "cites": 149
     },
     {
       "year": 2019,
       "title": "Contribution of the land sector to a 1.5 °C world",
       "venue": "Nature Climate Change",
       "url": "https://doi.org/10.1038/s41558-019-0591-9",
-      "cites": 612
+      "cites": 613
     },
     {
       "year": 2019,
       "title": "How fast are the oceans warming?",
       "venue": "Science",
       "url": "https://doi.org/10.1126/science.aav7619",
-      "cites": 545
+      "cites": 546
     },
     {
       "year": 2019,
@@ -205,7 +205,7 @@
       "title": "Reassessing changes in diurnal temperature range: Intercomparison and evaluation of existing global data set estimates",
       "venue": "Journal of Geophysical Research Atmospheres",
       "url": "https://doi.org/10.1002/2015jd024584",
-      "cites": 111
+      "cites": 112
     },
     {
       "year": 2016,
