@@ -1,8 +1,16 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-07-06",
+  "updated": "2026-07-07",
   "repos": [
+    {
+      "name": "biomass_map",
+      "url": "https://github.com/hausfath/biomass_map",
+      "description": "Interactive BiCRS/BECCS feedstock, CO2 storage & best-use-of-biomass map (Frontier strategy tool)",
+      "language": "Python",
+      "stars": 0,
+      "updated": "2026-07-06"
+    },
     {
       "name": "climate-dashboard",
       "url": "https://github.com/hausfath/climate-dashboard",
@@ -34,14 +42,6 @@
       "language": "JavaScript",
       "stars": 0,
       "updated": "2026-07-02"
-    },
-    {
-      "name": "biomass_map",
-      "url": "https://github.com/hausfath/biomass_map",
-      "description": "Interactive BiCRS/BECCS feedstock, CO2 storage & best-use-of-biomass map (Frontier strategy tool)",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-07-01"
     },
     {
       "name": "gas_ccs_map",
