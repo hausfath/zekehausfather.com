@@ -4,6 +4,14 @@
   "updated": "2026-07-08",
   "repos": [
     {
+      "name": "climate-dashboard",
+      "url": "https://github.com/hausfath/climate-dashboard",
+      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
+      "language": "Python",
+      "stars": 5,
+      "updated": "2026-07-08"
+    },
+    {
       "name": "atmospheric_concentrations",
       "url": "https://github.com/hausfath/atmospheric_concentrations",
       "description": "",
@@ -17,14 +25,6 @@
       "description": "Interactive map of 175 years of temperature change, built on Berkeley Earth gridded data",
       "language": "Python",
       "stars": 0,
-      "updated": "2026-07-07"
-    },
-    {
-      "name": "climate-dashboard",
-      "url": "https://github.com/hausfath/climate-dashboard",
-      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
-      "language": "Python",
-      "stars": 5,
       "updated": "2026-07-07"
     },
     {
