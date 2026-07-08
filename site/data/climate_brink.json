@@ -1,7 +1,7 @@
 {
   "source": "The Climate Brink",
   "author_url": "https://www.theclimatebrink.com/",
-  "updated": "2026-07-07",
+  "updated": "2026-07-08",
   "posts": [
     {
       "title": "Plateauing CO2 emissions have slowed atmospheric growth",
@@ -50,13 +50,6 @@
       "url": "https://www.theclimatebrink.com/p/the-ai-augmented-scientist",
       "date": "2026-02-24",
       "description": "The promise and pitfalls of using AI tools to boost my capabilities as a scientist",
-      "author": "Zeke Hausfather"
-    },
-    {
-      "title": "Introducing the Climate Brink Dashboard",
-      "url": "https://www.theclimatebrink.com/p/introducing-the-climate-brink-dashboard",
-      "date": "2026-02-09",
-      "description": "A new place to find daily updated climate data",
       "author": "Zeke Hausfather"
     }
   ]

@@ -1,15 +1,23 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-07-07",
+  "updated": "2026-07-08",
   "repos": [
     {
-      "name": "biomass_map",
-      "url": "https://github.com/hausfath/biomass_map",
-      "description": "Interactive BiCRS/BECCS feedstock, CO2 storage & best-use-of-biomass map (Frontier strategy tool)",
+      "name": "atmospheric_concentrations",
+      "url": "https://github.com/hausfath/atmospheric_concentrations",
+      "description": "",
+      "language": "Python",
+      "stars": 6,
+      "updated": "2026-06-09"
+    },
+    {
+      "name": "warming-map",
+      "url": "https://github.com/hausfath/warming-map",
+      "description": "Interactive map of 175 years of temperature change, built on Berkeley Earth gridded data",
       "language": "Python",
       "stars": 0,
-      "updated": "2026-07-06"
+      "updated": "2026-07-07"
     },
     {
       "name": "climate-dashboard",
@@ -17,6 +25,14 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 5,
+      "updated": "2026-07-07"
+    },
+    {
+      "name": "biomass_map",
+      "url": "https://github.com/hausfath/biomass_map",
+      "description": "Interactive BiCRS/BECCS feedstock, CO2 storage & best-use-of-biomass map (Frontier strategy tool)",
+      "language": "Python",
+      "stars": 0,
       "updated": "2026-07-06"
     },
     {
@@ -34,22 +50,6 @@
       "language": "HTML",
       "stars": 0,
       "updated": "2026-07-02"
-    },
-    {
-      "name": "bicrs-map-uk",
-      "url": "https://github.com/hausfath/bicrs-map-uk",
-      "description": "UK BiCRS Atlas — interactive feedstock, CO2 storage & best-use-of-biomass map for the United Kingdom (UK subset of Frontier's BiCRS Atlas)",
-      "language": "JavaScript",
-      "stars": 0,
-      "updated": "2026-07-02"
-    },
-    {
-      "name": "gas_ccs_map",
-      "url": "https://github.com/hausfath/gas_ccs_map",
-      "description": "Interactive map of US natural-gas power plants with least-cost CO2 transport & geologic storage costs (CCS siting screening tool)",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-06-29"
     }
   ]
 }
