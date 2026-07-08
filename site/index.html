@@ -117,6 +117,7 @@
       <div class="hero__actions">
         <a href="#writing" class="btn btn--primary">Latest writing</a>
         <a href="#about" class="btn btn--ghost">About me</a>
+        <button type="button" class="btn btn--ghost" id="contactBtn" aria-haspopup="dialog">Contact</button>
       </div>
     </div>
 
@@ -477,6 +478,18 @@
     <span class="footer__credit">Background visualizations &amp; data: ERA5 · Copernicus / C3S</span>
   </div>
 </footer>
+
+<!-- ======================= CONTACT MODAL ======================= -->
+<dialog class="contact-modal" id="contactModal" aria-labelledby="contactModalTitle">
+  <div class="contact-modal__inner">
+    <button type="button" class="contact-modal__close" id="contactClose" aria-label="Close">×</button>
+    <p class="contact-modal__eyebrow">Get in touch</p>
+    <h2 class="contact-modal__title" id="contactModalTitle">Say hello</h2>
+    <p class="contact-modal__lede">Reach out about climate research, writing, speaking, or the data on this site.</p>
+    <a class="contact-modal__email" id="contactEmail" href="#">…</a>
+    <button type="button" class="contact-modal__copy" id="contactCopy">Copy address</button>
+  </div>
+</dialog>
 
 <script src="js/viz.js" defer></script>
 <script src="js/main.js" defer></script>

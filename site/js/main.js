@@ -240,6 +240,42 @@
     els.forEach((e) => io.observe(e));
   }
 
+  /* ---------- contact modal (email assembled at runtime, never in source) ---------- */
+  function initContact() {
+    const modal = document.getElementById("contactModal");
+    const openBtn = document.getElementById("contactBtn");
+    if (!modal || !openBtn || typeof modal.showModal !== "function") return;
+
+    const user = "hausfath", domain = "gmail.com";
+    const addr = user + "@" + domain;
+    const link = document.getElementById("contactEmail");
+    if (link) { link.href = "mailto:" + addr; link.textContent = addr; }
+
+    const close = () => modal.close();
+    openBtn.addEventListener("click", () => modal.showModal());
+    const closeBtn = document.getElementById("contactClose");
+    if (closeBtn) closeBtn.addEventListener("click", close);
+    // click on backdrop closes
+    modal.addEventListener("click", (e) => { if (e.target === modal) close(); });
+
+    const copyBtn = document.getElementById("contactCopy");
+    if (copyBtn) copyBtn.addEventListener("click", () => {
+      const done = () => {
+        const orig = copyBtn.textContent;
+        copyBtn.textContent = "Copied ✓"; copyBtn.classList.add("is-copied");
+        setTimeout(() => { copyBtn.textContent = orig; copyBtn.classList.remove("is-copied"); }, 1800);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(addr).then(done, () => {});
+      } else {
+        const t = document.createElement("textarea");
+        t.value = addr; document.body.appendChild(t); t.select();
+        try { document.execCommand("copy"); done(); } catch (e) {}
+        document.body.removeChild(t);
+      }
+    });
+  }
+
   /* ---------- init ---------- */
   function init() {
     const y = document.getElementById("year"); if (y) y.textContent = new Date().getFullYear();
@@ -250,6 +286,7 @@
     buildFullPubs();
     initNav();
     initReveal();
+    initContact();
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
   else init();
