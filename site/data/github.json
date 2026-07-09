@@ -1,8 +1,16 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-07-08",
+  "updated": "2026-07-09",
   "repos": [
+    {
+      "name": "early-20th-century-warming",
+      "url": "https://github.com/hausfath/early-20th-century-warming",
+      "description": "Attribution of early 20th century (1900-1945) warming with FaIR — code and data for the Climate Brink post",
+      "language": "Python",
+      "stars": 0,
+      "updated": "2026-07-08"
+    },
     {
       "name": "climate-dashboard",
       "url": "https://github.com/hausfath/climate-dashboard",
@@ -42,14 +50,6 @@
       "language": "Python",
       "stars": 0,
       "updated": "2026-07-03"
-    },
-    {
-      "name": "saf-vs-cdr-explorer",
-      "url": "https://github.com/hausfath/saf-vs-cdr-explorer",
-      "description": "Interactive explorer: sustainable aviation fuel vs carbon removal — cost per tonne of CO2 across 14 biomass pathways, with adjustable assumptions",
-      "language": "HTML",
-      "stars": 0,
-      "updated": "2026-07-02"
     }
   ]
 }
