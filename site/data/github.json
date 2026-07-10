@@ -1,22 +1,30 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-07-09",
+  "updated": "2026-07-10",
   "repos": [
-    {
-      "name": "early-20th-century-warming",
-      "url": "https://github.com/hausfath/early-20th-century-warming",
-      "description": "Attribution of early 20th century (1900-1945) warming with FaIR — code and data for the Climate Brink post",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-07-08"
-    },
     {
       "name": "climate-dashboard",
       "url": "https://github.com/hausfath/climate-dashboard",
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 5,
+      "updated": "2026-07-10"
+    },
+    {
+      "name": "global-temperature-explainer",
+      "url": "https://github.com/hausfath/global-temperature-explainer",
+      "description": "Interactive explainer: how thousands of thermometers become one global temperature record — answering the claim that global temperature is 'physically meaningless'. Built from raw GHCN-M v4 data.",
+      "language": "HTML",
+      "stars": 0,
+      "updated": "2026-07-10"
+    },
+    {
+      "name": "early-20th-century-warming",
+      "url": "https://github.com/hausfath/early-20th-century-warming",
+      "description": "Attribution of early 20th century (1900-1945) warming with FaIR — code and data for the Climate Brink post",
+      "language": "Python",
+      "stars": 0,
       "updated": "2026-07-08"
     },
     {
@@ -42,14 +50,6 @@
       "language": "Python",
       "stars": 0,
       "updated": "2026-07-06"
-    },
-    {
-      "name": "land_ocean_ensembles",
-      "url": "https://github.com/hausfath/land_ocean_ensembles",
-      "description": "10,000-member annual ensembles of global land (LSAT) and ocean (SST) temperature, 1850-2025, built from 5 LSAT + 4 SST products via a Thorne et al. (2026) style family-tree weighting.",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-07-03"
     }
   ]
 }

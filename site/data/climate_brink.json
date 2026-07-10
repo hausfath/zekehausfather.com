@@ -1,8 +1,15 @@
 {
   "source": "The Climate Brink",
   "author_url": "https://www.theclimatebrink.com/",
-  "updated": "2026-07-09",
+  "updated": "2026-07-10",
   "posts": [
+    {
+      "title": "What drove the early 20th century warming?",
+      "url": "https://www.theclimatebrink.com/p/what-drove-the-early-20th-century",
+      "date": "2026-07-09",
+      "description": "Human activity, natural forcings, and internal variability explain the global temperature rise between 1900 and 1945",
+      "author": "Zeke Hausfather"
+    },
     {
       "title": "Plateauing CO2 emissions have slowed atmospheric growth",
       "url": "https://www.theclimatebrink.com/p/plateauing-co2-emissions-have-slowed",
@@ -43,13 +50,6 @@
       "url": "https://www.theclimatebrink.com/p/when-will-clean-energy-spending-exceed",
       "date": "2026-03-06",
       "description": "Why I may have been a tad premature in my 2026 prediction.",
-      "author": "Zeke Hausfather"
-    },
-    {
-      "title": "The AI-Augmented Scientist",
-      "url": "https://www.theclimatebrink.com/p/the-ai-augmented-scientist",
-      "date": "2026-02-24",
-      "description": "The promise and pitfalls of using AI tools to boost my capabilities as a scientist",
       "author": "Zeke Hausfather"
     }
   ]
