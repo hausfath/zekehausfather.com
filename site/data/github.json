@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-07-10",
+  "updated": "2026-07-11",
   "repos": [
     {
       "name": "climate-dashboard",
@@ -9,7 +9,15 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 5,
-      "updated": "2026-07-10"
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "early-20th-century-warming",
+      "url": "https://github.com/hausfath/early-20th-century-warming",
+      "description": "Attribution of early 20th century (1900-1945) warming with FaIR — code and data for the Climate Brink post",
+      "language": "Python",
+      "stars": 1,
+      "updated": "2026-07-08"
     },
     {
       "name": "global-temperature-explainer",
@@ -18,14 +26,6 @@
       "language": "HTML",
       "stars": 0,
       "updated": "2026-07-10"
-    },
-    {
-      "name": "early-20th-century-warming",
-      "url": "https://github.com/hausfath/early-20th-century-warming",
-      "description": "Attribution of early 20th century (1900-1945) warming with FaIR — code and data for the Climate Brink post",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-07-08"
     },
     {
       "name": "atmospheric_concentrations",
