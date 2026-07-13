@@ -1,6 +1,6 @@
 {
   "source": "Media coverage",
-  "updated": "2026-07-06",
+  "updated": "2026-07-13",
   "note": "Curated highlights plus major-outlet coverage from GDELT and Google News (past 12 months).",
   "items": [
     {
@@ -130,13 +130,6 @@
       "note": "Quoted on bending the emissions curve away from worst-case warming scenarios."
     },
     {
-      "title": "Marine heatwave over Pacific Ocean could lead to flooding in north-west",
-      "outlet": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQmdISm9PYXdFNE5vNXJmdC11di14Q2JnMlUzQjhVSUhhZUhqaEE3RnNNTm84dUgtM1hPRWhlMWtuX0w2eTlTQ1d4RkRrTVdwWW9rUmhyVTRVdUkxZnNaTTNIU3BsSEdjLWJsMjJWdXFTQWtDT0ZhQ25RajlwWGwzZnc5a2w3TVFESHdFRnNwdHZodw?oc=5",
-      "date": "2025-10-23",
-      "note": ""
-    },
-    {
       "title": "Opinion | Turns Out Air Pollution Was Good for Something",
       "outlet": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZl9ITGJPd3RaR3ZyWTZJOGpHWlBvT1ZaLXVzc2lwNEkzMFlydVlIYWhSalRheFlvOTJFaFE0eDVUaXVaQ2VRWkFGbUhhUS1JU0tUelBFUUs4Tkk2WWQ3TUptYzF6bDZRNlFTZ2MxVGcyd0tLNjdBLV9BMDJLM29nY2FaLVU4aGtQN2REbQ?oc=5",
@@ -156,13 +149,6 @@
       "url": "https://apnews.com/",
       "date": "2025-08-26",
       "note": "Quoted criticizing a DOE/EPA report for misusing a metric from his climate-model research."
-    },
-    {
-      "title": "Energy Dept. Attacks Climate Science in Contentious Report",
-      "outlet": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOelJmZ3ZURjQzXzluVzBmazN4Yi12aTRPNEFDOEpGb0NoaWsxTDFZZ01rb1FMVDlla2VVUG9kQ2k1Y2Qxc1RsNXVJb2F3d0pqTFpBVlBsandDNmMtSHEteXF3bkx2RksxS3l5S2ttcXlSVW5HbktpY1d4VVZnNG5haDRmRkxwc1E0MzEwNnJB?oc=5",
-      "date": "2025-08-02",
-      "note": ""
     }
   ]
 }
