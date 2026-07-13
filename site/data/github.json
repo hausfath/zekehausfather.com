@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-07-12",
+  "updated": "2026-07-13",
   "repos": [
     {
       "name": "climate-dashboard",
@@ -9,7 +9,15 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 5,
-      "updated": "2026-07-12"
+      "updated": "2026-07-13"
+    },
+    {
+      "name": "global-temperature-explainer",
+      "url": "https://github.com/hausfath/global-temperature-explainer",
+      "description": "Interactive explainer: how thousands of thermometers become one global temperature record — answering the claim that global temperature is 'physically meaningless'. Built from raw GHCN-M v4 data.",
+      "language": "HTML",
+      "stars": 0,
+      "updated": "2026-07-13"
     },
     {
       "name": "early-20th-century-warming",
@@ -18,14 +26,6 @@
       "language": "Python",
       "stars": 1,
       "updated": "2026-07-08"
-    },
-    {
-      "name": "global-temperature-explainer",
-      "url": "https://github.com/hausfath/global-temperature-explainer",
-      "description": "Interactive explainer: how thousands of thermometers become one global temperature record — answering the claim that global temperature is 'physically meaningless'. Built from raw GHCN-M v4 data.",
-      "language": "HTML",
-      "stars": 0,
-      "updated": "2026-07-10"
     },
     {
       "name": "atmospheric_concentrations",
