@@ -1,8 +1,15 @@
 {
   "source": "The Climate Brink",
   "author_url": "https://www.theclimatebrink.com/",
-  "updated": "2026-07-13",
+  "updated": "2026-07-14",
   "posts": [
+    {
+      "title": "The Strongest El Niño Ever",
+      "url": "https://www.theclimatebrink.com/p/the-strongest-el-nino-ever",
+      "date": "2026-07-13",
+      "description": "With all the July runs in, dynamical models give a ~90% chance of a record-setting event",
+      "author": "Zeke Hausfather"
+    },
     {
       "title": "What drove the early 20th century warming?",
       "url": "https://www.theclimatebrink.com/p/what-drove-the-early-20th-century",
