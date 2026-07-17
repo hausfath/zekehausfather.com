@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-07-16",
+  "updated": "2026-07-17",
   "repos": [
     {
       "name": "climate-dashboard",
@@ -9,7 +9,15 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 5,
-      "updated": "2026-07-16"
+      "updated": "2026-07-17"
+    },
+    {
+      "name": "canada-wildfires-climate",
+      "url": "https://github.com/hausfath/canada-wildfires-climate",
+      "description": "Canadian wildfires in climate context: area burned, fire-season warming, and the 2026 smoke event — reproducible analysis behind The Climate Brink post",
+      "language": "HTML",
+      "stars": 0,
+      "updated": "2026-07-17"
     },
     {
       "name": "co2-storage-map",
@@ -17,7 +25,7 @@
       "description": "Interactive global atlas of CO2 storage potential: geologic injection basins + in-situ mineralization formations",
       "language": "Python",
       "stars": 0,
-      "updated": "2026-07-14"
+      "updated": "2026-07-16"
     },
     {
       "name": "naam-solar-scorecard",
@@ -42,14 +50,6 @@
       "language": "Python",
       "stars": 1,
       "updated": "2026-07-08"
-    },
-    {
-      "name": "atmospheric_concentrations",
-      "url": "https://github.com/hausfath/atmospheric_concentrations",
-      "description": "",
-      "language": "Python",
-      "stars": 6,
-      "updated": "2026-06-09"
     }
   ]
 }
