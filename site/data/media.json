@@ -1,8 +1,15 @@
 {
   "source": "Media coverage",
-  "updated": "2026-07-13",
+  "updated": "2026-07-20",
   "note": "Curated highlights plus major-outlet coverage from GDELT and Google News (past 12 months).",
   "items": [
+    {
+      "title": "This could be the strongest El Niño on record",
+      "outlet": "Yale Climate Connections",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVXRUZkZQblV1Y0YwWE9GMzBRNVBxVkQ4SWdwSURIOTVhLW1pQjhMcF9MOXFuSXZhZ3FudUV2eFZIR3JJZVlkUHF1Yms2ck43WFhtenhJNnozNTNGVjBJbmJDLXZyQ0NBbjYzekRwNmZfZ2dIajNrTkt3SHgzNzNhYy1PVjdzY1VYUVdIVlB1U05nTkE?oc=5",
+      "date": "2026-07-14",
+      "note": ""
+    },
     {
       "title": "We knew this Super El Niño would be intense. But it could end up being even worse than anticipated",
       "outlet": "CNN",
