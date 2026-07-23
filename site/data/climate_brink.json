@@ -1,8 +1,15 @@
 {
   "source": "The Climate Brink",
   "author_url": "https://www.theclimatebrink.com/",
-  "updated": "2026-07-22",
+  "updated": "2026-07-23",
   "posts": [
+    {
+      "title": "Hot days, cold thermometers",
+      "url": "https://www.theclimatebrink.com/p/hot-days-cold-thermometers",
+      "date": "2026-07-22",
+      "description": "Why a viral graph on US days above 95F is misleading and overstates regional warmth",
+      "author": "Zeke Hausfather"
+    },
     {
       "title": "Canada's boreal wildfires aren't just bad forest management",
       "url": "https://www.theclimatebrink.com/p/canadas-boreal-wildfires-arent-just",
@@ -50,13 +57,6 @@
       "url": "https://www.theclimatebrink.com/p/using-a-20-year-period-for-comparing",
       "date": "2026-03-28",
       "description": "Short-term thinking makes for bad climate policy",
-      "author": "Zeke Hausfather"
-    },
-    {
-      "title": "The El Niño cometh",
-      "url": "https://www.theclimatebrink.com/p/the-el-nino-cometh",
-      "date": "2026-03-12",
-      "description": "The latest models show a much greater change of a strong – or even super – El Nino developing later this year",
       "author": "Zeke Hausfather"
     }
   ]
