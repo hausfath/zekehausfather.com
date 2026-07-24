@@ -1,30 +1,30 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-07-23",
+  "updated": "2026-07-24",
   "repos": [
-    {
-      "name": "climate-dashboard",
-      "url": "https://github.com/hausfath/climate-dashboard",
-      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
-      "language": "Python",
-      "stars": 5,
-      "updated": "2026-07-23"
-    },
     {
       "name": "us-hot-days",
       "url": "https://github.com/hausfath/us-hot-days",
       "description": "US hot days: raw GHCN-Daily vs homogenized Berkeley Earth analysis behind the Climate Brink post 'Hot days and cold biases'",
       "language": "HTML",
       "stars": 0,
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
+    },
+    {
+      "name": "climate-dashboard",
+      "url": "https://github.com/hausfath/climate-dashboard",
+      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
+      "language": "Python",
+      "stars": 5,
+      "updated": "2026-07-24"
     },
     {
       "name": "canada-wildfires-climate",
       "url": "https://github.com/hausfath/canada-wildfires-climate",
       "description": "Canadian wildfires in climate context: area burned, fire-season warming, and the 2026 smoke event — reproducible analysis behind The Climate Brink post",
       "language": "HTML",
-      "stars": 0,
+      "stars": 1,
       "updated": "2026-07-19"
     },
     {
