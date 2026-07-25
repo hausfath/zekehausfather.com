@@ -1,22 +1,22 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-07-24",
+  "updated": "2026-07-25",
   "repos": [
-    {
-      "name": "us-hot-days",
-      "url": "https://github.com/hausfath/us-hot-days",
-      "description": "US hot days: raw GHCN-Daily vs homogenized Berkeley Earth analysis behind the Climate Brink post 'Hot days and cold biases'",
-      "language": "HTML",
-      "stars": 0,
-      "updated": "2026-07-24"
-    },
     {
       "name": "climate-dashboard",
       "url": "https://github.com/hausfath/climate-dashboard",
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 5,
+      "updated": "2026-07-25"
+    },
+    {
+      "name": "us-hot-days",
+      "url": "https://github.com/hausfath/us-hot-days",
+      "description": "US hot days: raw GHCN-Daily vs homogenized Berkeley Earth analysis behind the Climate Brink post 'Hot days and cold biases'",
+      "language": "HTML",
+      "stars": 0,
       "updated": "2026-07-24"
     },
     {
