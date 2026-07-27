@@ -1,8 +1,43 @@
 {
   "source": "Media coverage",
-  "updated": "2026-07-20",
+  "updated": "2026-07-27",
   "note": "Curated highlights plus major-outlet coverage from GDELT and Google News (past 12 months).",
   "items": [
+    {
+      "title": "'Mind-blowing' El Niño stuns scientists. Why are they so concerned?",
+      "outlet": "USA Today",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSTlPamlOOWJVX3JkVmRtMGZ0aDVyM3kySEFiR3VmWklnZGk1U1YtZkhsTFVXeVdLbnJxT01kTUd4Sm9WbWNUc3ZVb0RnVnh4cXBoaDA4NFFoZTRuRVF0MEpKd0Jlek9HRFZCWmZDWkdueTBKY0xCOExTM1RMcVRibU9oVkI5b2RmQzRfTGlmcGlsdnRHNzdKMHNnUEU?oc=5",
+      "date": "2026-07-25",
+      "note": ""
+    },
+    {
+      "title": "The 2026 El Niño Is on Track to Be the Strongest on Record",
+      "outlet": "WIRED",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XaXdjeDdZZlZvUkxaYlFIUThtbDliV1BiclBnSHExbEI5MUdiemN1akYyZUp2WXZBdEFNU0tnb21UQjlZOU4xNlpkVmdqX3UwTnR0ZmFsVWdZUmNMazF5TjJSNk1tdm9BRXI0QktZZ3pEUVBiRTY0?oc=5",
+      "date": "2026-07-24",
+      "note": ""
+    },
+    {
+      "title": "This El Niño will be the hottest by a huge margin",
+      "outlet": "New Scientist",
+      "url": "https://www.newscientist.com/article/2581151-this-el-nino-will-be-the-hottest-by-a-huge-margin/",
+      "date": "2026-07-23",
+      "note": ""
+    },
+    {
+      "title": "Just stop burning fossil fuels . Scientists stress that our smoky skies have only one true fix",
+      "outlet": "CBC News",
+      "url": "https://www.cbc.ca/news/science/wildfire-climate-emissions-smoke-9.7274862",
+      "date": "2026-07-18",
+      "note": ""
+    },
+    {
+      "title": "El Niño is here , and it already looking like it could be mind - blowing",
+      "outlet": "CBC News",
+      "url": "https://www.cbc.ca/news/science/el-nino-july-9.7272908",
+      "date": "2026-07-17",
+      "note": ""
+    },
     {
       "title": "This could be the strongest El Niño on record",
       "outlet": "Yale Climate Connections",
@@ -46,6 +81,13 @@
       "note": "Featured his Climate Dashboard and 2026/2027 global temperature projections."
     },
     {
+      "title": "How prediction markets could forecast the future of science",
+      "outlet": "Scientific American",
+      "url": "https://www.scientificamerican.com/article/how-prediction-markets-could-forecast-the-future-of-science/",
+      "date": "2026-06-06",
+      "note": ""
+    },
+    {
       "title": "Why climate scientists have dropped a worst-case scenario",
       "outlet": "The Christian Science Monitor",
       "url": "https://www.csmonitor.com/Environment/2026/0603/climate-change-rcp-8.5",
@@ -67,11 +109,25 @@
       "note": "On the retirement of the RCP8.5 worst-case scenario, drawing on his work with Glen Peters."
     },
     {
+      "title": "Clarifying A Climate Worst - Case Scenario With A Simple Analogy",
+      "outlet": "Forbes",
+      "url": "https://www.forbes.com/sites/marshallshepherd/2026/05/26/clarifying-a-climate-worst-case-scenario-with-a-simple-analogy/",
+      "date": "2026-05-26",
+      "note": ""
+    },
+    {
       "title": "How to vibe code in science: early adopters share their tips",
       "outlet": "Nature",
       "url": "https://www.nature.com/articles/d41586-026-01477-w",
       "date": "2026-05-12",
       "note": "Featured for using AI to code new climate-data visualizations, including his 3D tree-ring temperature plots."
+    },
+    {
+      "title": "2026 will be the hottest year on record , leading scientist predicts",
+      "outlet": "New Scientist",
+      "url": "https://www.newscientist.com/article/2525229-2026-will-be-the-hottest-year-on-record-leading-scientist-predicts/",
+      "date": "2026-05-01",
+      "note": ""
     },
     {
       "title": "WATCH — Why El Niño could make 2026 the hottest year ever recorded | videoclip | Kids News",
@@ -114,48 +170,6 @@
       "url": "https://www.nature.com/immersive/d41586-026-00332-2/index.html",
       "date": "2026-02-11",
       "note": "Quoted on the clean-energy transition — 'Every unit of renewable energy that is used instead of coal is a good thing' — and that ultimately 'what matters is cumulative emissions.'"
-    },
-    {
-      "title": "2025 was Earth's 3rd-warmest year on record",
-      "outlet": "Yale Climate Connections",
-      "url": "https://yaleclimateconnections.org/2026/01/2025-was-earths-3rd-warmest-year-on-record/",
-      "date": "2026-01-15",
-      "note": "Cited on 2025 temperatures (~1.44°C above preindustrial) despite La Niña."
-    },
-    {
-      "title": "2025 was another exceptionally hot year",
-      "outlet": "Yale Environment 360",
-      "url": "https://e360.yale.edu/digest/2025-second-hottest-year",
-      "date": "2025-12-30",
-      "note": "Cited via his Carbon Brief analysis of the drivers of recent warming."
-    },
-    {
-      "title": "This chart shows that progress has actually been made on climate change",
-      "outlet": "Axios",
-      "url": "https://www.axios.com/2025/11/13/climate-change-progress-chart-co2-emissions",
-      "date": "2025-11-13",
-      "note": "Quoted on bending the emissions curve away from worst-case warming scenarios."
-    },
-    {
-      "title": "Opinion | Turns Out Air Pollution Was Good for Something",
-      "outlet": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZl9ITGJPd3RaR3ZyWTZJOGpHWlBvT1ZaLXVzc2lwNEkzMFlydVlIYWhSalRheFlvOTJFaFE0eDVUaXVaQ2VRWkFGbUhhUS1JU0tUelBFUUs4Tkk2WWQ3TUptYzF6bDZRNlFTZ2MxVGcyd0tLNjdBLV9BMDJLM29nY2FaLVU4aGtQN2REbQ?oc=5",
-      "date": "2025-09-21",
-      "note": ""
-    },
-    {
-      "title": "Climate change is accelerating, scientists find in 'grim' report",
-      "outlet": "Yale Climate Connections",
-      "url": "https://yaleclimateconnections.org/2025/09/climate-change-is-accelerating-scientists-find-in-grim-report/",
-      "date": "2025-09-01",
-      "note": "Quoted as a co-author of the Indicators of Global Climate Change study."
-    },
-    {
-      "title": "Takeaways from scientists on the Trump administration's work on climate change",
-      "outlet": "Associated Press",
-      "url": "https://apnews.com/",
-      "date": "2025-08-26",
-      "note": "Quoted criticizing a DOE/EPA report for misusing a metric from his climate-model research."
     }
   ]
 }
