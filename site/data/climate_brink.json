@@ -1,8 +1,15 @@
 {
   "source": "The Climate Brink",
   "author_url": "https://www.theclimatebrink.com/",
-  "updated": "2026-07-30",
+  "updated": "2026-07-31",
   "posts": [
+    {
+      "title": "Why Hansen may end up being right about 2026",
+      "url": "https://www.theclimatebrink.com/p/why-hansen-may-end-up-being-right",
+      "date": "2026-07-30",
+      "description": "Whether 2026 sets a new record is increasingly likely to be a spit decision between different groups",
+      "author": "Zeke Hausfather"
+    },
     {
       "title": "Hot days, cold thermometers",
       "url": "https://www.theclimatebrink.com/p/hot-days-cold-thermometers",
@@ -50,13 +57,6 @@
       "url": "https://www.theclimatebrink.com/p/higher-warming-predictions-for-2026",
       "date": "2026-04-30",
       "description": "An update to my December estimates of global temperatures over the next two years",
-      "author": "Zeke Hausfather"
-    },
-    {
-      "title": "Using a 20-year period for comparing methane to CO2 is a terrible idea",
-      "url": "https://www.theclimatebrink.com/p/using-a-20-year-period-for-comparing",
-      "date": "2026-03-28",
-      "description": "Short-term thinking makes for bad climate policy",
       "author": "Zeke Hausfather"
     }
   ]
