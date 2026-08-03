@@ -1,15 +1,8 @@
 {
   "source": "Media coverage",
-  "updated": "2026-07-27",
+  "updated": "2026-08-03",
   "note": "Curated highlights plus major-outlet coverage from GDELT and Google News (past 12 months).",
   "items": [
-    {
-      "title": "'Mind-blowing' El Niño stuns scientists. Why are they so concerned?",
-      "outlet": "USA Today",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSTlPamlOOWJVX3JkVmRtMGZ0aDVyM3kySEFiR3VmWklnZGk1U1YtZkhsTFVXeVdLbnJxT01kTUd4Sm9WbWNUc3ZVb0RnVnh4cXBoaDA4NFFoZTRuRVF0MEpKd0Jlek9HRFZCWmZDWkdueTBKY0xCOExTM1RMcVRibU9oVkI5b2RmQzRfTGlmcGlsdnRHNzdKMHNnUEU?oc=5",
-      "date": "2026-07-25",
-      "note": ""
-    },
     {
       "title": "The 2026 El Niño Is on Track to Be the Strongest on Record",
       "outlet": "WIRED",
@@ -123,13 +116,6 @@
       "note": "Featured for using AI to code new climate-data visualizations, including his 3D tree-ring temperature plots."
     },
     {
-      "title": "2026 will be the hottest year on record , leading scientist predicts",
-      "outlet": "New Scientist",
-      "url": "https://www.newscientist.com/article/2525229-2026-will-be-the-hottest-year-on-record-leading-scientist-predicts/",
-      "date": "2026-05-01",
-      "note": ""
-    },
-    {
       "title": "WATCH — Why El Niño could make 2026 the hottest year ever recorded | videoclip | Kids News",
       "outlet": "CBC News",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeFhEaTJYS0dUbkdDM1djSjRLMlg1OGNMYzh3dG5qZG5oLWdjUngwOTVqT01JcWZ0NjUtdW94QUdneVZBTlhCa3dqcFNsUUlXUkl5anlEZm9yb2tfaUlxNjFxdmJWUHVMM1g1b1dTc3FnR2Y2eHBPREQ1NFMtZTkwS0JBNFRJNU9zc3hKdENWeXFnUHpfZDFKYUpibGpFdw?oc=5",
@@ -142,13 +128,6 @@
       "url": "https://www.bloomberg.com/news/articles/2026-03-13/ai-scientists-help-human-ones-answer-urgent-climate-questions",
       "date": "2026-03-13",
       "note": "Featured on how AI tools are helping researchers tackle urgent climate questions."
-    },
-    {
-      "title": "A dramatic, record-setting El Niño may be brewing, forecasters say",
-      "outlet": "USA Today",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUVlZUXdVRHIxUW53b29BV2JoZ2drX1FZWXNPbGpDODJjQU9VRm5FcEx3dXJJV21sbllISEdfT0hBdWFwU01LRENCSlpFb1JWNktsLUZhV051eFdXMjJpMGJVejFVQ19DcUNGdWhPMTMzMlVuc19XZGFRbDBoUU94UXQzbXJRZDMtRnB2VGhxMHNDSzdVSk1UZnRfT2FmdzN6bFVzZlBR?oc=5",
-      "date": "2026-03-12",
-      "note": ""
     },
     {
       "title": "Scientists change how El Niño is labeled to keep up with spike in temperature",
@@ -170,6 +149,20 @@
       "url": "https://www.nature.com/immersive/d41586-026-00332-2/index.html",
       "date": "2026-02-11",
       "note": "Quoted on the clean-energy transition — 'Every unit of renewable energy that is used instead of coal is a good thing' — and that ultimately 'what matters is cumulative emissions.'"
+    },
+    {
+      "title": "A Chart Climate Denialists Can’t Ignore",
+      "outlet": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcUdxck1NcHZyelRTLXZlcVkxRUs4NFZNVWpkcVU4U3VIUWpVYi1KVEgwRWhVdWRHR2swSGxCam5sUDR2QjNmYmxTbWhZVjYzNEVKX3MzTERKZ0lHQXVXNjI4Ym14eEZyRW4wOExiMS1GekwxVTZzVTJqbDV0ZnRjcy1GTDJraTJkczZWVUJpX2ZicHh3b2FvSg?oc=5",
+      "date": "2025-10-08",
+      "note": ""
+    },
+    {
+      "title": "Opinion | Turns Out Air Pollution Was Good for Something",
+      "outlet": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZl9ITGJPd3RaR3ZyWTZJOGpHWlBvT1ZaLXVzc2lwNEkzMFlydVlIYWhSalRheFlvOTJFaFE0eDVUaXVaQ2VRWkFGbUhhUS1JU0tUelBFUUs4Tkk2WWQ3TUptYzF6bDZRNlFTZ2MxVGcyd0tLNjdBLV9BMDJLM29nY2FaLVU4aGtQN2REbQ?oc=5",
+      "date": "2025-09-21",
+      "note": ""
     }
   ]
 }
