@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-08-03",
+  "updated": "2026-08-04",
   "repos": [
     {
       "name": "climate-dashboard",
@@ -9,7 +9,7 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 5,
-      "updated": "2026-08-03"
+      "updated": "2026-08-04"
     },
     {
       "name": "erw-map",
@@ -17,7 +17,7 @@
       "description": "Global gridded map of enhanced rock weathering deployment potential on croplands, with live re-weighting. Three-mechanism kinetics, an alkalinity-to-DIC efficiency term, and protocol eligibility screens.",
       "language": "Python",
       "stars": 0,
-      "updated": "2026-07-31"
+      "updated": "2026-08-04"
     },
     {
       "name": "us-hot-days",
