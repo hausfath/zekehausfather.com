@@ -1,8 +1,15 @@
 {
   "source": "The Climate Brink",
   "author_url": "https://www.theclimatebrink.com/",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "posts": [
+    {
+      "title": "The real energy use of agentic AI",
+      "url": "https://www.theclimatebrink.com/p/the-real-energy-use-of-agentic-ai",
+      "date": "2026-08-05",
+      "description": "Agents use about 600x more energy than simple AI prompts",
+      "author": "Zeke Hausfather"
+    },
     {
       "title": "Why Hansen may end up being right about 2026",
       "url": "https://www.theclimatebrink.com/p/why-hansen-may-end-up-being-right",
@@ -50,13 +57,6 @@
       "url": "https://www.theclimatebrink.com/p/on-the-death-of-rcp85",
       "date": "2026-05-18",
       "description": "We should celebrate progress, but not overstate it",
-      "author": "Zeke Hausfather"
-    },
-    {
-      "title": "Higher warming predictions for 2026 and 2027",
-      "url": "https://www.theclimatebrink.com/p/higher-warming-predictions-for-2026",
-      "date": "2026-04-30",
-      "description": "An update to my December estimates of global temperatures over the next two years",
       "author": "Zeke Hausfather"
     }
   ]
