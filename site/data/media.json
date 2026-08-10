@@ -1,34 +1,13 @@
 {
   "source": "Media coverage",
-  "updated": "2026-08-03",
+  "updated": "2026-08-10",
   "note": "Curated highlights plus major-outlet coverage from GDELT and Google News (past 12 months).",
   "items": [
     {
-      "title": "The 2026 El Niño Is on Track to Be the Strongest on Record",
-      "outlet": "WIRED",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XaXdjeDdZZlZvUkxaYlFIUThtbDliV1BiclBnSHExbEI5MUdiemN1akYyZUp2WXZBdEFNU0tnb21UQjlZOU4xNlpkVmdqX3UwTnR0ZmFsVWdZUmNMazF5TjJSNk1tdm9BRXI0QktZZ3pEUVBiRTY0?oc=5",
-      "date": "2026-07-24",
-      "note": ""
-    },
-    {
-      "title": "This El Niño will be the hottest by a huge margin",
-      "outlet": "New Scientist",
-      "url": "https://www.newscientist.com/article/2581151-this-el-nino-will-be-the-hottest-by-a-huge-margin/",
-      "date": "2026-07-23",
-      "note": ""
-    },
-    {
-      "title": "Just stop burning fossil fuels . Scientists stress that our smoky skies have only one true fix",
-      "outlet": "CBC News",
-      "url": "https://www.cbc.ca/news/science/wildfire-climate-emissions-smoke-9.7274862",
-      "date": "2026-07-18",
-      "note": ""
-    },
-    {
-      "title": "El Niño is here , and it already looking like it could be mind - blowing",
-      "outlet": "CBC News",
-      "url": "https://www.cbc.ca/news/science/el-nino-july-9.7272908",
-      "date": "2026-07-17",
+      "title": "'Mind-blowing' El Niño stuns scientists. Why are they so concerned?",
+      "outlet": "USA Today",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSTlPamlOOWJVX3JkVmRtMGZ0aDVyM3kySEFiR3VmWklnZGk1U1YtZkhsTFVXeVdLbnJxT01kTUd4Sm9WbWNUc3ZVb0RnVnh4cXBoaDA4NFFoZTRuRVF0MEpKd0Jlek9HRFZCWmZDWkdueTBKY0xCOExTM1RMcVRibU9oVkI5b2RmQzRfTGlmcGlsdnRHNzdKMHNnUEU?oc=5",
+      "date": "2026-07-25",
       "note": ""
     },
     {
@@ -74,13 +53,6 @@
       "note": "Featured his Climate Dashboard and 2026/2027 global temperature projections."
     },
     {
-      "title": "How prediction markets could forecast the future of science",
-      "outlet": "Scientific American",
-      "url": "https://www.scientificamerican.com/article/how-prediction-markets-could-forecast-the-future-of-science/",
-      "date": "2026-06-06",
-      "note": ""
-    },
-    {
       "title": "Why climate scientists have dropped a worst-case scenario",
       "outlet": "The Christian Science Monitor",
       "url": "https://www.csmonitor.com/Environment/2026/0603/climate-change-rcp-8.5",
@@ -100,13 +72,6 @@
       "url": "https://www.nytimes.com/2026/05/26/climate/emissions-worst-case-scenario-rcp.html",
       "date": "2026-05-26",
       "note": "On the retirement of the RCP8.5 worst-case scenario, drawing on his work with Glen Peters."
-    },
-    {
-      "title": "Clarifying A Climate Worst - Case Scenario With A Simple Analogy",
-      "outlet": "Forbes",
-      "url": "https://www.forbes.com/sites/marshallshepherd/2026/05/26/clarifying-a-climate-worst-case-scenario-with-a-simple-analogy/",
-      "date": "2026-05-26",
-      "note": ""
     },
     {
       "title": "How to vibe code in science: early adopters share their tips",
@@ -130,6 +95,13 @@
       "note": "Featured on how AI tools are helping researchers tackle urgent climate questions."
     },
     {
+      "title": "A dramatic, record-setting El Niño may be brewing, forecasters say",
+      "outlet": "USA Today",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUVlZUXdVRHIxUW53b29BV2JoZ2drX1FZWXNPbGpDODJjQU9VRm5FcEx3dXJJV21sbllISEdfT0hBdWFwU01LRENCSlpFb1JWNktsLUZhV051eFdXMjJpMGJVejFVQ19DcUNGdWhPMTMzMlVuc19XZGFRbDBoUU94UXQzbXJRZDMtRnB2VGhxMHNDSzdVSk1UZnRfT2FmdzN6bFVzZlBR?oc=5",
+      "date": "2026-03-12",
+      "note": ""
+    },
+    {
       "title": "Scientists change how El Niño is labeled to keep up with spike in temperature",
       "outlet": "The Washington Post",
       "url": "https://www.washingtonpost.com/politics/2026/02/20/el-nino-la-nina-climate-change-warming/",
@@ -151,10 +123,10 @@
       "note": "Quoted on the clean-energy transition — 'Every unit of renewable energy that is used instead of coal is a good thing' — and that ultimately 'what matters is cumulative emissions.'"
     },
     {
-      "title": "A Chart Climate Denialists Can’t Ignore",
-      "outlet": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcUdxck1NcHZyelRTLXZlcVkxRUs4NFZNVWpkcVU4U3VIUWpVYi1KVEgwRWhVdWRHR2swSGxCam5sUDR2QjNmYmxTbWhZVjYzNEVKX3MzTERKZ0lHQXVXNjI4Ym14eEZyRW4wOExiMS1GekwxVTZzVTJqbDV0ZnRjcy1GTDJraTJkczZWVUJpX2ZicHh3b2FvSg?oc=5",
-      "date": "2025-10-08",
+      "title": "Marine heatwave over Pacific Ocean could lead to flooding in north-west",
+      "outlet": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQmdISm9PYXdFNE5vNXJmdC11di14Q2JnMlUzQjhVSUhhZUhqaEE3RnNNTm84dUgtM1hPRWhlMWtuX0w2eTlTQ1d4RkRrTVdwWW9rUmhyVTRVdUkxZnNaTTNIU3BsSEdjLWJsMjJWdXFTQWtDT0ZhQ25RajlwWGwzZnc5a2w3TVFESHdFRnNwdHZodw?oc=5",
+      "date": "2025-10-23",
       "note": ""
     },
     {
