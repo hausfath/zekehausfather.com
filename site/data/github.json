@@ -1,15 +1,15 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-08-13",
+  "updated": "2026-08-14",
   "repos": [
     {
       "name": "climate-dashboard",
       "url": "https://github.com/hausfath/climate-dashboard",
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
-      "stars": 5,
-      "updated": "2026-08-13"
+      "stars": 6,
+      "updated": "2026-08-14"
     },
     {
       "name": "erw-map",
