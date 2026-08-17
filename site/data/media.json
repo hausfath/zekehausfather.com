@@ -1,13 +1,20 @@
 {
   "source": "Media coverage",
-  "updated": "2026-08-10",
+  "updated": "2026-08-17",
   "note": "Curated highlights plus major-outlet coverage from GDELT and Google News (past 12 months).",
   "items": [
     {
-      "title": "'Mind-blowing' El Niño stuns scientists. Why are they so concerned?",
-      "outlet": "USA Today",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSTlPamlOOWJVX3JkVmRtMGZ0aDVyM3kySEFiR3VmWklnZGk1U1YtZkhsTFVXeVdLbnJxT01kTUd4Sm9WbWNUc3ZVb0RnVnh4cXBoaDA4NFFoZTRuRVF0MEpKd0Jlek9HRFZCWmZDWkdueTBKY0xCOExTM1RMcVRibU9oVkI5b2RmQzRfTGlmcGlsdnRHNzdKMHNnUEU?oc=5",
-      "date": "2026-07-25",
+      "title": "We’ll soon get a glimpse of future temperatures, thanks to this record El Niño",
+      "outlet": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVm5felIyaDBWRjFpN0VoemJ2dnNVTzZ4djZ3a2owdkVhamowWjg4V3p6S0stemdWem1QR0l2YmlYR2R6YTVlR0xxa0NRRVdVSlBkREZaNnN1RVlRVFFpN2o2U2RMRjdBTlFzdDh4N28yaUQ4TlhoRTJZSW1VYU5oN0pQUXVkem5kQXhfTTZ1OGgxVi1aN2J6TTFla3NFc1UzbXZpa3FFQmV6TXF3RGoyUlVxQQ?oc=5",
+      "date": "2026-08-13",
+      "note": ""
+    },
+    {
+      "title": "El Niño is here, and it’s already looking like it could be 'mind-blowing'",
+      "outlet": "CBC News",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tbWxOTHpCYktsempJdkRERERSYUxWcFo0cmdweHMxbEZVMHdVQk9YYmhKd0tQRHB5bWVSdHNwbEdYVy1jaGhNZHhGcmgxclFkcFdPRC0zSkUwT08teHlNV2c5TE8?oc=5",
+      "date": "2026-07-17",
       "note": ""
     },
     {
