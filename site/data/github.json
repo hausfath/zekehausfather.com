@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-08-24",
+  "updated": "2026-08-25",
   "repos": [
     {
       "name": "climate-dashboard",
@@ -9,6 +9,22 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 6,
+      "updated": "2026-08-25"
+    },
+    {
+      "name": "erw-map",
+      "url": "https://github.com/hausfath/erw-map",
+      "description": "Global gridded map of enhanced rock weathering deployment potential on croplands, with live re-weighting. Three-mechanism kinetics, an alkalinity-to-DIC efficiency term, and protocol eligibility screens.",
+      "language": "Python",
+      "stars": 0,
+      "updated": "2026-08-25"
+    },
+    {
+      "name": "warming-map",
+      "url": "https://github.com/hausfath/warming-map",
+      "description": "Interactive map of 175 years of temperature change, built on Berkeley Earth gridded data",
+      "language": "Python",
+      "stars": 0,
       "updated": "2026-08-24"
     },
     {
@@ -18,14 +34,6 @@
       "language": "Jupyter Notebook",
       "stars": 2,
       "updated": "2020-05-13"
-    },
-    {
-      "name": "erw-map",
-      "url": "https://github.com/hausfath/erw-map",
-      "description": "Global gridded map of enhanced rock weathering deployment potential on croplands, with live re-weighting. Three-mechanism kinetics, an alkalinity-to-DIC efficiency term, and protocol eligibility screens.",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-08-14"
     },
     {
       "name": "co2-storage-map",
@@ -42,14 +50,6 @@
       "language": "HTML",
       "stars": 0,
       "updated": "2026-07-26"
-    },
-    {
-      "name": "canada-wildfires-climate",
-      "url": "https://github.com/hausfath/canada-wildfires-climate",
-      "description": "Canadian wildfires in climate context: area burned, fire-season warming, and the 2026 smoke event — reproducible analysis behind The Climate Brink post",
-      "language": "HTML",
-      "stars": 1,
-      "updated": "2026-07-19"
     }
   ]
 }
