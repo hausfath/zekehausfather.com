@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-08-25",
+  "updated": "2026-08-26",
   "repos": [
     {
       "name": "climate-dashboard",
@@ -9,6 +9,22 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 6,
+      "updated": "2026-08-26"
+    },
+    {
+      "name": "srm-forever",
+      "url": "https://github.com/hausfath/srm-forever",
+      "description": "Interactive model: holding 1.5C with stratospheric aerosol injection vs rapid mitigation plus carbon removal",
+      "language": "HTML",
+      "stars": 0,
+      "updated": "2026-08-26"
+    },
+    {
+      "name": "co2-storage-map",
+      "url": "https://github.com/hausfath/co2-storage-map",
+      "description": "Interactive global atlas of CO2 storage potential: geologic injection basins + in-situ mineralization formations",
+      "language": "Python",
+      "stars": 0,
       "updated": "2026-08-25"
     },
     {
@@ -34,22 +50,6 @@
       "language": "Jupyter Notebook",
       "stars": 2,
       "updated": "2020-05-13"
-    },
-    {
-      "name": "co2-storage-map",
-      "url": "https://github.com/hausfath/co2-storage-map",
-      "description": "Interactive global atlas of CO2 storage potential: geologic injection basins + in-situ mineralization formations",
-      "language": "JavaScript",
-      "stars": 0,
-      "updated": "2026-08-06"
-    },
-    {
-      "name": "us-hot-days",
-      "url": "https://github.com/hausfath/us-hot-days",
-      "description": "US hot days: raw GHCN-Daily vs homogenized Berkeley Earth analysis behind the Climate Brink post 'Hot days and cold biases'",
-      "language": "HTML",
-      "stars": 0,
-      "updated": "2026-07-26"
     }
   ]
 }
