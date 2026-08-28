@@ -1,8 +1,15 @@
 {
   "source": "The Climate Brink",
   "author_url": "https://www.theclimatebrink.com/",
-  "updated": "2026-08-27",
+  "updated": "2026-08-28",
   "posts": [
+    {
+      "title": "What we can and cannot say about climate change and the Nepal disaster",
+      "url": "https://www.theclimatebrink.com/p/what-we-can-and-cannot-say-about",
+      "date": "2026-08-28",
+      "description": "Formal attribution is premature, but the collapse happened on a rapidly warming mountain in a valley losing its ice",
+      "author": "Zeke Hausfather"
+    },
     {
       "title": "The real energy use of agentic AI",
       "url": "https://www.theclimatebrink.com/p/the-real-energy-use-of-agentic-ai",
@@ -50,13 +57,6 @@
       "url": "https://www.theclimatebrink.com/p/plateauing-co2-emissions-have-slowed",
       "date": "2026-06-09",
       "description": "CO2 concentrations have continued to increase – but more slowly than it otherwise would have",
-      "author": "Zeke Hausfather"
-    },
-    {
-      "title": "On the death of RCP8.5",
-      "url": "https://www.theclimatebrink.com/p/on-the-death-of-rcp85",
-      "date": "2026-05-18",
-      "description": "We should celebrate progress, but not overstate it",
       "author": "Zeke Hausfather"
     }
   ]
