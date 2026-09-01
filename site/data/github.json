@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "repos": [
     {
       "name": "climate-dashboard",
@@ -9,20 +9,28 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 8,
+      "updated": "2026-09-01"
+    },
+    {
+      "name": "fable-of-claude",
+      "url": "https://github.com/hausfath/fable-of-claude",
+      "description": "A self-portrait of Claude Fable, told as a fable. Written and designed by the model itself.",
+      "language": "HTML",
+      "stars": 0,
+      "updated": "2026-09-01"
+    },
+    {
+      "name": "erw-map",
+      "url": "https://github.com/hausfath/erw-map",
+      "description": "Global gridded map of enhanced rock weathering deployment potential on croplands, with live re-weighting. Three-mechanism kinetics, an alkalinity-to-DIC efficiency term, and protocol eligibility screens.",
+      "language": "Python",
+      "stars": 0,
       "updated": "2026-08-31"
     },
     {
       "name": "langtang-glacier-collapse",
       "url": "https://github.com/hausfath/langtang-glacier-collapse",
       "description": "Climate context for the Aug 2026 Langtang Lirung glacier collapse: ERA5 warming + WGMS glacier mass balance (The Climate Brink)",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-08-28"
-    },
-    {
-      "name": "erw-map",
-      "url": "https://github.com/hausfath/erw-map",
-      "description": "Global gridded map of enhanced rock weathering deployment potential on croplands, with live re-weighting. Three-mechanism kinetics, an alkalinity-to-DIC efficiency term, and protocol eligibility screens.",
       "language": "Python",
       "stars": 0,
       "updated": "2026-08-28"
@@ -42,14 +50,6 @@
       "language": "HTML",
       "stars": 0,
       "updated": "2026-08-26"
-    },
-    {
-      "name": "co2-storage-map",
-      "url": "https://github.com/hausfath/co2-storage-map",
-      "description": "Interactive global atlas of CO2 storage potential: geologic injection basins + in-situ mineralization formations",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-08-25"
     }
   ]
 }
