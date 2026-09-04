@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "repos": [
     {
       "name": "climate-dashboard",
@@ -9,6 +9,14 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 8,
+      "updated": "2026-09-04"
+    },
+    {
+      "name": "sf-train-set",
+      "url": "https://github.com/hausfath/sf-train-set",
+      "description": "San Francisco as an interactive 3D model train set, built on real terrain and OpenStreetMap geometry",
+      "language": "HTML",
+      "stars": 0,
       "updated": "2026-09-03"
     },
     {
@@ -40,14 +48,6 @@
       "url": "https://github.com/hausfath/warming-map",
       "description": "Interactive map of 175 years of temperature change, built on Berkeley Earth gridded data",
       "language": "Python",
-      "stars": 0,
-      "updated": "2026-08-26"
-    },
-    {
-      "name": "srm-forever",
-      "url": "https://github.com/hausfath/srm-forever",
-      "description": "Interactive model: holding 1.5C with stratospheric aerosol injection vs rapid mitigation plus carbon removal",
-      "language": "HTML",
       "stars": 0,
       "updated": "2026-08-26"
     }
