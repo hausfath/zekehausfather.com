@@ -1,7 +1,7 @@
 {
   "source": "OpenAlex",
   "author_url": "https://openalex.org/A5085329398",
-  "updated": "2026-08-31",
+  "updated": "2026-09-07",
   "count": 39,
   "publications": [
     {
@@ -23,14 +23,14 @@
       "title": "Indicators of Global Climate Change 2024: annual update of key indicators of the state of the climate system and human influence",
       "venue": "Earth system science data",
       "url": "https://doi.org/10.5194/essd-17-2641-2025",
-      "cites": 163
+      "cites": 167
     },
     {
       "year": 2025,
       "title": "Record High Temperatures in the Ocean in 2024",
       "venue": "Advances in Atmospheric Sciences",
       "url": "https://doi.org/10.1007/s00376-025-4541-3",
-      "cites": 70
+      "cites": 71
     },
     {
       "year": 2025,
@@ -58,14 +58,14 @@
       "title": "Future demand for electricity generation materials under different climate mitigation scenarios",
       "venue": "Joule",
       "url": "https://doi.org/10.1016/j.joule.2023.01.001",
-      "cites": 156
+      "cites": 158
     },
     {
       "year": 2023,
       "title": "Mechanisms and Impacts of Earth System Tipping Elements",
       "venue": "Reviews of Geophysics",
       "url": "https://doi.org/10.1029/2021rg000757",
-      "cites": 126
+      "cites": 127
     },
     {
       "year": 2023,
@@ -79,7 +79,7 @@
       "title": "Ten new insights in climate science 2023",
       "venue": "Global Sustainability",
       "url": "https://doi.org/10.1017/sus.2023.25",
-      "cites": 45
+      "cites": 46
     },
     {
       "year": 2022,
@@ -121,7 +121,7 @@
       "title": "An Assessment of Earth's Climate Sensitivity Using Multiple Lines of Evidence",
       "venue": "Reviews of Geophysics",
       "url": "https://doi.org/10.1029/2019rg000678",
-      "cites": 1319
+      "cites": 1320
     },
     {
       "year": 2020,
@@ -149,7 +149,7 @@
       "title": "Contribution of the land sector to a 1.5 °C world",
       "venue": "Nature Climate Change",
       "url": "https://doi.org/10.1038/s41558-019-0591-9",
-      "cites": 628
+      "cites": 631
     },
     {
       "year": 2019,
@@ -163,7 +163,7 @@
       "title": "Evaluating the Performance of Past Climate Model Projections",
       "venue": "Geophysical Research Letters",
       "url": "https://doi.org/10.1029/2019gl085378",
-      "cites": 239
+      "cites": 240
     },
     {
       "year": 2019,

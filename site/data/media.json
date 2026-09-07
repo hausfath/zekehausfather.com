@@ -1,13 +1,13 @@
 {
   "source": "Media coverage",
-  "updated": "2026-08-31",
+  "updated": "2026-09-07",
   "note": "Curated highlights plus major-outlet coverage from GDELT and Google News (past 12 months).",
   "items": [
     {
-      "title": "'Mind-blowing' El Niño stuns scientists. Why are they so concerned?",
-      "outlet": "USA Today",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSTlPamlOOWJVX3JkVmRtMGZ0aDVyM3kySEFiR3VmWklnZGk1U1YtZkhsTFVXeVdLbnJxT01kTUd4Sm9WbWNUc3ZVb0RnVnh4cXBoaDA4NFFoZTRuRVF0MEpKd0Jlek9HRFZCWmZDWkdueTBKY0xCOExTM1RMcVRibU9oVkI5b2RmQzRfTGlmcGlsdnRHNzdKMHNnUEU?oc=5",
-      "date": "2026-07-25",
+      "title": "This El Niño is set to be the largest on record by a ‘mind-blowing margin’",
+      "outlet": "Nature",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9TM2J5c19UZXFHSXlfWGtvRDRuaHZXb2pjTGZBbVRMRkgxUmItOUtzR3NXYVRLSEhZVVZjWmR4dE94QXBQSmg4andBcXYtVHBGSU9ObzBaSmpPTEhrQXlJ?oc=5",
+      "date": "2026-07-23",
       "note": ""
     },
     {
@@ -102,10 +102,10 @@
       "note": "Featured on how AI tools are helping researchers tackle urgent climate questions."
     },
     {
-      "title": "A dramatic, record-setting El Niño may be brewing, forecasters say",
-      "outlet": "USA Today",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUVlZUXdVRHIxUW53b29BV2JoZ2drX1FZWXNPbGpDODJjQU9VRm5FcEx3dXJJV21sbllISEdfT0hBdWFwU01LRENCSlpFb1JWNktsLUZhV051eFdXMjJpMGJVejFVQ19DcUNGdWhPMTMzMlVuc19XZGFRbDBoUU94UXQzbXJRZDMtRnB2VGhxMHNDSzdVSk1UZnRfT2FmdzN6bFVzZlBR?oc=5",
-      "date": "2026-03-12",
+      "title": "Marine heatwave over Pacific Ocean could lead to flooding in north-west",
+      "outlet": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQmdISm9PYXdFNE5vNXJmdC11di14Q2JnMlUzQjhVSUhhZUhqaEE3RnNNTm84dUgtM1hPRWhlMWtuX0w2eTlTQ1d4RkRrTVdwWW9rUmhyVTRVdUkxZnNaTTNIU3BsSEdjLWJsMjJWdXFTQWtDT0ZhQ25RajlwWGwzZnc5a2w3TVFESHdFRnNwdHZodw?oc=5",
+      "date": "2025-10-23",
       "note": ""
     },
     {
