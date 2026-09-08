@@ -409,6 +409,8 @@ main, .footer { position: relative; z-index: 1; }
   padding: 20px clamp(16px,2.5vw,26px); transition: background 0.25s; position: relative;
 }
 .media-item:hover { background: var(--panel); }
+.media-item[hidden] { display: none; }   /* collapsed entries behind the "show more" toggle */
+.media__toggle { margin-top: 20px; }
 .media-item__date { font-family: var(--mono); font-size: 12px; color: var(--ink-faint); }
 .media-item__main { min-width: 0; }
 .media-item__title { font-family: var(--serif); font-size: 1.18rem; font-weight: 400; line-height: 1.3; color: var(--ink); transition: color 0.2s; }

@@ -47,14 +47,18 @@
   }
 
   /* ---------- media coverage ---------- */
+  const MEDIA_ABOVE_FOLD = 10;   // entries shown before the "show more" toggle
+
   function loadMedia() {
     const el = document.getElementById("mediaList");
+    const btn = document.getElementById("mediaToggle");
     if (!el) return;
     getJSON("data/media.json").then((d) => {
       const items = (d.items || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
       if (!items.length) { el.innerHTML = '<p class="feed__loading">No coverage listed.</p>'; return; }
-      el.innerHTML = items.map((m) => {
+      el.innerHTML = items.map((m, idx) => {
         const dt = fmtDate(m.date);
+        const more = idx >= MEDIA_ABOVE_FOLD ? " hidden" : "";
         const inner = `
           <span class="media-item__date">${dt.full || m.date}</span>
           <span class="media-item__main">
@@ -63,9 +67,25 @@
           </span>
           <span class="media-item__outlet">${esc(m.outlet)}</span>`;
         return m.url
-          ? `<a class="media-item" href="${esc(m.url)}" target="_blank" rel="noopener">${inner}</a>`
-          : `<div class="media-item">${inner}</div>`;
+          ? `<a class="media-item" href="${esc(m.url)}" target="_blank" rel="noopener"${more}>${inner}</a>`
+          : `<div class="media-item"${more}>${inner}</div>`;
       }).join("");
+
+      // "Show more" toggle, mirroring the publications list. Only appears when
+      // there is something to reveal; the count is bound to the data.
+      if (!btn) return;
+      const extra = items.length - MEDIA_ABOVE_FOLD;
+      if (extra <= 0) { btn.hidden = true; return; }
+      const moreLabel = `Show ${extra} more ${extra === 1 ? "story" : "stories"} `;
+      btn.firstChild.textContent = moreLabel;
+      btn.hidden = false;
+      btn.addEventListener("click", () => {
+        const open = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", String(!open));
+        el.querySelectorAll(".media-item").forEach((node, idx) => { if (idx >= MEDIA_ABOVE_FOLD) node.hidden = open; });
+        btn.firstChild.textContent = open ? moreLabel : "Show fewer stories ";
+        if (open) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
     }).catch(() => { el.innerHTML = '<p class="feed__loading">Coverage could not be loaded.</p>'; });
   }
 
