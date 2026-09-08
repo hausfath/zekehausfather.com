@@ -1,8 +1,8 @@
 {
   "source": "OpenAlex",
   "author_url": "https://openalex.org/A5085329398",
-  "updated": "2026-09-07",
-  "count": 39,
+  "updated": "2026-09-08",
+  "count": 40,
   "publications": [
     {
       "year": 2026,
@@ -16,6 +16,13 @@
       "title": "The Value of Reversible Carbon Storage in a Zero-Emissions World",
       "venue": "Environmental Science & Technology",
       "url": "https://doi.org/10.1021/acs.est.6c00333",
+      "cites": 0
+    },
+    {
+      "year": 2026,
+      "title": "Indicators of Global Climate Change 2025: annual update of key indicators of the state of the climate system and human influence",
+      "venue": "Earth System Science Data",
+      "url": "https://doi.org/10.5194/essd-18-3889-2026",
       "cites": 0
     },
     {

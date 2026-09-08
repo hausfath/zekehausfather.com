@@ -73,8 +73,20 @@ PINNED = [
      "venue": "U.S. Global Change Research Program",
      "url": "https://nca2023.globalchange.gov/chapter/2/",
      "cites": 78},
+    # OpenAlex indexes this paper but has not linked Zeke's authorship on it to
+    # his author ID (only the ESSD discussion preprint is linked), so the
+    # author-filtered query never returns it.
+    {"year": 2026,
+     "title": "Indicators of Global Climate Change 2025: annual update of key indicators of the state of the climate system and human influence",
+     "venue": "Earth System Science Data",
+     "url": "https://doi.org/10.5194/essd-18-3889-2026",
+     "cites": 0},
 ]
-SUPPRESS_DOIS = ("10.7930/nca5.2023.ch2",)
+SUPPRESS_DOIS = ("10.7930/nca5.2023.ch2", "10.5194/essd-18-3889-2026")
+
+# Preprints newer than this many years back are checked for a published
+# version (see rescue_published). Older ones are assumed settled.
+RESCUE_YEARS = 2
 
 # Keep an untitled-venue work only if it has cleared this many citations
 # (catches a high-profile paper OpenAlex hasn't linked to a venue yet, while
@@ -162,6 +174,44 @@ def keep(e):
     return False
 
 
+def rescue_published(dropped, already):
+    """For recent preprints the filter dropped, look for the published article
+    by title. Catches papers whose journal version OpenAlex indexes without
+    linking the authorship to Zeke's author ID (as happened with the 2026
+    Indicators of Global Climate Change paper), which the author-filtered
+    query can never return."""
+    this_year = datetime.now(timezone.utc).year
+    seen = {norm_title(e["title"]) for e in already}
+    found = []
+    for e in dropped:
+        if e["_type"] != "preprint" or (e["year"] or 0) < this_year - RESCUE_YEARS:
+            continue
+        key = norm_title(e["title"])
+        if not key or key in seen:
+            continue
+        q = urllib.parse.urlencode({
+            "filter": "title.search:" + re.sub(r"[^\w\s]", " ", e["title"])[:200],
+            "per-page": "10", "mailto": MAILTO})
+        try:
+            results = fetch("https://api.openalex.org/works?" + q).get("results", [])
+        except Exception as ex:
+            print(f"  ! rescue lookup failed for '{e['title'][:50]}' ({ex})")
+            continue
+        for w in results:
+            cand = to_entry(w)
+            if norm_title(cand["title"]) != key or not keep(cand):
+                continue
+            names = [(a.get("author") or {}).get("display_name", "").lower()
+                     for a in w.get("authorships", [])]
+            if not any("hausfather" in n for n in names):
+                continue
+            print(f"  + rescued published version: {cand['year']} {cand['title'][:60]}")
+            found.append(cand)
+            seen.add(key)
+            break
+    return found
+
+
 def dedupe(entries):
     """Collapse preprint/published duplicates by title; keep the strongest."""
     best = {}
@@ -188,7 +238,9 @@ def main():
         print(f"  ! skipped ({e}); keeping existing file")
         return
     entries = [to_entry(w) for w in works]
+    dropped = [e for e in entries if not keep(e)]
     entries = [e for e in entries if keep(e)]
+    entries.extend(rescue_published(dropped, entries))
     # Drop OpenAlex versions of works we pin a cleaner copy of.
     entries = [e for e in entries
                if not any(d in (e["url"] or "").lower() for d in SUPPRESS_DOIS)]
