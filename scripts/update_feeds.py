@@ -133,7 +133,13 @@ def update_climate_brink():
 
 # ---------------------------------------------------------------- Carbon Brief
 def update_carbon_brief():
+    """Merge Zeke's posts from the author feed, the site-wide feed and the
+    existing JSON. The author feed has gone stale in the past and the main
+    feed only holds ~12 posts, so no single source is reliable on its own."""
     print("Carbon Brief…")
+    existing = load_existing("carbon_brief.json").get("posts", [])
+    found = {norm_url(p["url"]): dict(p) for p in existing if p.get("url")}
+    ok = False
     for url in ("https://www.carbonbrief.org/author/zekehausfather/feed/",
                 "https://www.carbonbrief.org/feed/"):
         try:
@@ -141,20 +147,26 @@ def update_carbon_brief():
         except Exception as e:
             print(f"  ! {url} failed ({e})")
             continue
-        if "author/zekehausfather" in url:
-            chosen = items
-        else:
-            chosen = [i for i in items if ZEKE in i["creator"].lower()]
-        posts = [{"title": i["title"], "url": i["url"], "date": i["date"],
-                  "description": i["description"], "category": ""} for i in chosen][:8]
-        if posts:
-            write_json("carbon_brief.json", {
-                "source": "Carbon Brief",
-                "author_url": "https://www.carbonbrief.org/author/zekehausfather/",
-                "updated": today(), "posts": posts,
-            })
-            return
-    print("  ! no Carbon Brief items found; keeping existing file")
+        ok = True
+        if "author/zekehausfather" not in url:
+            items = [i for i in items if ZEKE in i["creator"].lower()]
+        added = 0
+        for i in items:
+            key = norm_url(i["url"])
+            if key and key not in found:
+                found[key] = {"title": i["title"], "url": i["url"], "date": i["date"],
+                              "description": i["description"], "category": ""}
+                added += 1
+        print(f"    {url.split('carbonbrief.org')[1]}: {len(items)} items, +{added} new")
+    if not ok and not existing:
+        print("  ! no Carbon Brief items found; keeping existing file")
+        return
+    posts = sorted(found.values(), key=lambda p: p.get("date", ""), reverse=True)[:8]
+    write_json("carbon_brief.json", {
+        "source": "Carbon Brief",
+        "author_url": "https://www.carbonbrief.org/author/zekehausfather/",
+        "updated": today(), "posts": posts,
+    })
 
 
 # Self-published / non-coverage sources to exclude from "media coverage".

@@ -4,6 +4,20 @@
   "updated": "2026-09-08",
   "posts": [
     {
+      "title": "Explainer: The CMIP7 emissions scenarios – and how they explore future climate change",
+      "url": "https://www.carbonbrief.org/explainer-the-cmip7-emissions-scenarios-and-how-they-explore-future-climate-change",
+      "date": "2026-08-31",
+      "description": "Every few years, climate modelling groups run a coordinated set of simulations that explore climate change in the future. Carbon Brief unpacks how the new scenarios were designed and how they differ.",
+      "category": ""
+    },
+    {
+      "title": "State of the climate: Rapidly developing El Niño raises chance of record-warm 2026",
+      "url": "https://www.carbonbrief.org/state-of-the-climate-rapidly-developing-el-nino-raises-chance-of-record-warm-2026",
+      "date": "2026-07-24",
+      "description": "The developing El Niño is boosting expectations for global temperatures, both this year and next.",
+      "category": ""
+    },
+    {
       "title": "Factcheck: Trump’s false claims about the IPCC and ‘RCP8.5’ climate scenario",
       "url": "https://www.carbonbrief.org/factcheck-trumps-false-claims-about-the-ipcc-and-rcp8-5-climate-scenario",
       "date": "2026-05-19",
@@ -43,20 +57,6 @@
       "url": "https://www.carbonbrief.org/explainer-how-human-caused-aerosols-are-masking-global-warming",
       "date": "2025-06-10",
       "description": "Human-caused emissions of aerosols – tiny, light‑scattering particles produced mainly by burning fossil fuels – have long acted as an invisible…",
-      "category": ""
-    },
-    {
-      "title": "State of the climate: 2025 close behind 2024 as the hottest start to a year",
-      "url": "https://www.carbonbrief.org/state-of-the-climate-2025-close-behind-2024-as-the-hottest-start-to-a-year",
-      "date": "2025-04-24",
-      "description": "Global temperatures in the first quarter of 2025 were the second warmest on record, extending a remarkable run of exceptional…",
-      "category": ""
-    },
-    {
-      "title": "Factcheck: Climate change is not making extreme cold more common",
-      "url": "https://www.carbonbrief.org/factcheck-climate-change-is-not-making-extreme-cold-more-common",
-      "date": "2025-03-10",
-      "description": "The term “global warming” is typically used to describe increasing global temperatures as a result of human emissions of carbon…",
       "category": ""
     }
   ]

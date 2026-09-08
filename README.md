@@ -41,7 +41,7 @@ python3 -m http.server 8000
 |------|--------|-----------|
 | Temperature chart | ERA5 daily series (Copernicus / C3S) | `scripts/process_era5.py` |
 | The Climate Brink | `theclimatebrink.com/feed` (filtered to Zeke) | `scripts/update_feeds.py` |
-| Carbon Brief | `carbonbrief.org/author/zekehausfather/feed/` | `scripts/update_feeds.py` |
+| Carbon Brief | author feed + site feed (`carbonbrief.org/feed/`, filtered to Zeke) + existing entries | `scripts/update_feeds.py` |
 | Media coverage | Google News RSS search for "Zeke Hausfather" | `scripts/update_feeds.py` |
 
 `update_feeds.py` uses **only the Python standard library** — no `pip install` needed.
