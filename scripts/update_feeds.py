@@ -340,7 +340,7 @@ def update_media():
     cutoff = (datetime.now(timezone.utc) - timedelta(days=365)).strftime("%Y-%m-%d")
     out = [m for m in (curated + auto) if not m.get("date") or m["date"] >= cutoff]
     out.sort(key=lambda m: m.get("date", ""), reverse=True)
-    out = out[:24]
+    out = out[:40]
     write_json("media.json", {
         "source": "Media coverage", "updated": today(),
         "note": "Curated highlights plus major-outlet coverage from GDELT and Google News (past 12 months).",
