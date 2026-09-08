@@ -9,7 +9,7 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 8,
-      "updated": "2026-09-07"
+      "updated": "2026-09-08"
     },
     {
       "name": "sf-train-set",
