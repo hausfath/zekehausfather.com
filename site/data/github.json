@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "repos": [
     {
       "name": "climate-dashboard",
@@ -9,7 +9,15 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 9,
-      "updated": "2026-09-10"
+      "updated": "2026-09-11"
+    },
+    {
+      "name": "langtang-glacier-collapse",
+      "url": "https://github.com/hausfath/langtang-glacier-collapse",
+      "description": "Climate context for the Aug 2026 Langtang Lirung glacier collapse: ERA5 warming + WGMS glacier mass balance (The Climate Brink)",
+      "language": "Python",
+      "stars": 1,
+      "updated": "2026-08-28"
     },
     {
       "name": "sf-train-set",
@@ -34,14 +42,6 @@
       "language": "HTML",
       "stars": 0,
       "updated": "2026-09-01"
-    },
-    {
-      "name": "langtang-glacier-collapse",
-      "url": "https://github.com/hausfath/langtang-glacier-collapse",
-      "description": "Climate context for the Aug 2026 Langtang Lirung glacier collapse: ERA5 warming + WGMS glacier mass balance (The Climate Brink)",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-08-28"
     },
     {
       "name": "warming-map",
