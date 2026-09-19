@@ -1,15 +1,23 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "repos": [
+    {
+      "name": "warming-map",
+      "url": "https://github.com/hausfath/warming-map",
+      "description": "Interactive map of 175 years of temperature change, built on Berkeley Earth gridded data",
+      "language": "Python",
+      "stars": 1,
+      "updated": "2026-08-26"
+    },
     {
       "name": "climate-dashboard",
       "url": "https://github.com/hausfath/climate-dashboard",
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 11,
-      "updated": "2026-09-18"
+      "updated": "2026-09-19"
     },
     {
       "name": "sm-map",
@@ -42,14 +50,6 @@
       "language": "HTML",
       "stars": 0,
       "updated": "2026-09-03"
-    },
-    {
-      "name": "erw-map",
-      "url": "https://github.com/hausfath/erw-map",
-      "description": "Global gridded map of enhanced rock weathering deployment potential on croplands, with live re-weighting. Three-mechanism kinetics, an alkalinity-to-DIC efficiency term, and protocol eligibility screens.",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-09-02"
     }
   ]
 }
