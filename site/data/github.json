@@ -1,8 +1,16 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "repos": [
+    {
+      "name": "climate-dashboard",
+      "url": "https://github.com/hausfath/climate-dashboard",
+      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
+      "language": "Python",
+      "stars": 11,
+      "updated": "2026-09-20"
+    },
     {
       "name": "warming-map",
       "url": "https://github.com/hausfath/warming-map",
@@ -10,14 +18,6 @@
       "language": "Python",
       "stars": 1,
       "updated": "2026-08-26"
-    },
-    {
-      "name": "climate-dashboard",
-      "url": "https://github.com/hausfath/climate-dashboard",
-      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
-      "language": "Python",
-      "stars": 11,
-      "updated": "2026-09-19"
     },
     {
       "name": "sm-map",
