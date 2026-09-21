@@ -1,8 +1,15 @@
 {
   "source": "Carbon Brief",
   "author_url": "https://www.carbonbrief.org/author/zekehausfather/",
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "posts": [
+    {
+      "title": "Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record",
+      "url": "https://www.carbonbrief.org/analysis-super-el-nino-reaches-remarkable-all-time-record",
+      "date": "2026-09-21",
+      "description": "This year’s so-called “super El Niño” is entering into record-breaking territory. Sea surface temperatures in the tropical Pacific now equal…",
+      "category": ""
+    },
     {
       "title": "Explainer: The CMIP7 emissions scenarios – and how they explore future climate change",
       "url": "https://www.carbonbrief.org/explainer-the-cmip7-emissions-scenarios-and-how-they-explore-future-climate-change",
@@ -15,6 +22,13 @@
       "url": "https://www.carbonbrief.org/state-of-the-climate-rapidly-developing-el-nino-raises-chance-of-record-warm-2026",
       "date": "2026-07-24",
       "description": "The developing El Niño is boosting expectations for global temperatures, both this year and next.",
+      "category": ""
+    },
+    {
+      "title": "Eight facts about air conditioning amid an overheated global debate",
+      "url": "https://www.carbonbrief.org/eight-facts-about-air-conditioning-amid-an-overheated-global-debate",
+      "date": "2026-07-10",
+      "description": "As successive heatwaves hit Europe, air-conditioning (AC) has emerged as a new front in the international “culture war” over climate…",
       "category": ""
     },
     {
@@ -43,20 +57,6 @@
       "url": "https://www.carbonbrief.org/analysis-what-are-the-causes-of-recent-record-high-global-temperatures",
       "date": "2025-12-10",
       "description": "The past three years have been exceptionally warm globally. In 2023, global temperatures reached a new high, after they significantly…",
-      "category": ""
-    },
-    {
-      "title": "State of the climate: 2025 on track to be second or third warmest year on record",
-      "url": "https://www.carbonbrief.org/state-of-the-climate-2025-on-track-to-be-second-or-third-warmest-year-on-record",
-      "date": "2025-07-29",
-      "description": "As it passes its midway point, 2025 is on track to be the second or third warmest year on record,…",
-      "category": ""
-    },
-    {
-      "title": "Explainer: How human-caused aerosols are ‘masking’ global warming",
-      "url": "https://www.carbonbrief.org/explainer-how-human-caused-aerosols-are-masking-global-warming",
-      "date": "2025-06-10",
-      "description": "Human-caused emissions of aerosols – tiny, light‑scattering particles produced mainly by burning fossil fuels – have long acted as an invisible…",
       "category": ""
     }
   ]
