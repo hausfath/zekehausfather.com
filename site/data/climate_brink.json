@@ -1,8 +1,15 @@
 {
   "source": "The Climate Brink",
   "author_url": "https://www.theclimatebrink.com/",
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "posts": [
+    {
+      "title": "My new NYT op-ed on climate change risk",
+      "url": "https://www.theclimatebrink.com/p/my-new-nyt-op-ed-on-climate-change",
+      "date": "2026-09-22",
+      "description": "We’ve made real progress bending down the curve of emissions, but risks remain far too high for complacency",
+      "author": "Zeke Hausfather"
+    },
     {
       "title": "What we can and cannot say about climate change and the Nepal disaster",
       "url": "https://www.theclimatebrink.com/p/what-we-can-and-cannot-say-about",
@@ -50,13 +57,6 @@
       "url": "https://www.theclimatebrink.com/p/what-drove-the-early-20th-century",
       "date": "2026-07-09",
       "description": "Human activity, natural forcings, and internal variability explain the global temperature rise between 1900 and 1945",
-      "author": "Zeke Hausfather"
-    },
-    {
-      "title": "Plateauing CO2 emissions have slowed atmospheric growth",
-      "url": "https://www.theclimatebrink.com/p/plateauing-co2-emissions-have-slowed",
-      "date": "2026-06-09",
-      "description": "CO2 concentrations have continued to increase – but more slowly than it otherwise would have",
       "author": "Zeke Hausfather"
     }
   ]
