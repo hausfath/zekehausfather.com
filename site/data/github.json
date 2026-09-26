@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "repos": [
     {
       "name": "climate-dashboard",
@@ -9,7 +9,15 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 12,
-      "updated": "2026-09-25"
+      "updated": "2026-09-26"
+    },
+    {
+      "name": "atmospheric_concentrations",
+      "url": "https://github.com/hausfath/atmospheric_concentrations",
+      "description": "",
+      "language": "Python",
+      "stars": 5,
+      "updated": "2026-06-09"
     },
     {
       "name": "saf-vs-cdr-explorer",
@@ -42,14 +50,6 @@
       "language": "Python",
       "stars": 1,
       "updated": "2026-08-26"
-    },
-    {
-      "name": "sm-map",
-      "url": "https://github.com/hausfath/sm-map",
-      "description": "Surficial Mineralization Atlas (internal v0): ultramafic footprint, tailings sites, removal and cost model",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-09-15"
     }
   ]
 }
