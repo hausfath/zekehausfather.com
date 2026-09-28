@@ -1,8 +1,15 @@
 {
   "source": "Media coverage",
-  "updated": "2026-09-21",
+  "updated": "2026-09-28",
   "note": "Curated highlights plus major-outlet coverage from GDELT and Google News (past 12 months).",
   "items": [
+    {
+      "title": "Opinion | The Climate May Have Some Surprises in Store",
+      "outlet": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQkx3ZGVVSHprMVFURjBYWkQyR1g0TEYtbDg3V3RrNERzV1MtTS02UU1YX0pHZDJ2T2FZSGxKUndWSmJpYm9aeHVEbDFFT0dZZHJUTldHQ1FZQXBPdWxaOWx3UThULWU2U3JvcmZxVFBFRTJkRUxKMkQ0WTBmUEtHYw?oc=5",
+      "date": "2026-09-22",
+      "note": ""
+    },
     {
       "title": "Research suggests global warming has increased 'super' El Niño's punch",
       "outlet": "Los Angeles Times",
@@ -260,13 +267,6 @@
       "outlet": "USA Today",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUVlZUXdVRHIxUW53b29BV2JoZ2drX1FZWXNPbGpDODJjQU9VRm5FcEx3dXJJV21sbllISEdfT0hBdWFwU01LRENCSlpFb1JWNktsLUZhV051eFdXMjJpMGJVejFVQ19DcUNGdWhPMTMzMlVuc19XZGFRbDBoUU94UXQzbXJRZDMtRnB2VGhxMHNDSzdVSk1UZnRfT2FmdzN6bFVzZlBR?oc=5",
       "date": "2026-03-12",
-      "note": ""
-    },
-    {
-      "title": "Opinion | Turns Out Air Pollution Was Good for Something",
-      "outlet": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZl9ITGJPd3RaR3ZyWTZJOGpHWlBvT1ZaLXVzc2lwNEkzMFlydVlIYWhSalRheFlvOTJFaFE0eDVUaXVaQ2VRWkFGbUhhUS1JU0tUelBFUUs4Tkk2WWQ3TUptYzF6bDZRNlFTZ2MxVGcyd0tLNjdBLV9BMDJLM29nY2FaLVU4aGtQN2REbQ?oc=5",
-      "date": "2025-09-21",
       "note": ""
     }
   ]
