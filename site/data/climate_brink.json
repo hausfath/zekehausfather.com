@@ -1,8 +1,15 @@
 {
   "source": "The Climate Brink",
   "author_url": "https://www.theclimatebrink.com/",
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "posts": [
+    {
+      "title": "The impacts of this year’s record-shattering El Niño",
+      "url": "https://www.theclimatebrink.com/p/the-impacts-of-this-years-record",
+      "date": "2026-09-28",
+      "description": "El Niño will drive severe drought from Indonesia to the Southern Africa and northern South America, with wetter winters from the US Gulf Coast to Southern South America.",
+      "author": "Zeke Hausfather"
+    },
     {
       "title": "My new NYT op-ed on climate change risk",
       "url": "https://www.theclimatebrink.com/p/my-new-nyt-op-ed-on-climate-change",
@@ -50,13 +57,6 @@
       "url": "https://www.theclimatebrink.com/p/the-strongest-el-nino-ever",
       "date": "2026-07-13",
       "description": "With all the July runs in, dynamical models give a ~90% chance of a record-setting event",
-      "author": "Zeke Hausfather"
-    },
-    {
-      "title": "What drove the early 20th century warming?",
-      "url": "https://www.theclimatebrink.com/p/what-drove-the-early-20th-century",
-      "date": "2026-07-09",
-      "description": "Human activity, natural forcings, and internal variability explain the global temperature rise between 1900 and 1945",
       "author": "Zeke Hausfather"
     }
   ]
