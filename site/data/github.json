@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "repos": [
     {
       "name": "climate-dashboard",
@@ -9,15 +9,23 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 12,
-      "updated": "2026-09-28"
+      "updated": "2026-09-29"
     },
     {
       "name": "el-nino-2026-impacts",
       "url": "https://github.com/hausfath/el-nino-2026-impacts",
       "description": "Code and data behind the Climate Brink El Niño 2026-27 impacts post and the Climate Dashboard El Niño Impacts tab",
       "language": "Python",
-      "stars": 0,
+      "stars": 2,
       "updated": "2026-09-27"
+    },
+    {
+      "name": "saf-vs-cdr-explorer",
+      "url": "https://github.com/hausfath/saf-vs-cdr-explorer",
+      "description": "Interactive explorer: sustainable aviation fuel vs carbon removal — cost per tonne of CO2 across 14 biomass pathways, with adjustable assumptions",
+      "language": "HTML",
+      "stars": 0,
+      "updated": "2026-09-28"
     },
     {
       "name": "atmospheric_concentrations",
@@ -26,14 +34,6 @@
       "language": "Python",
       "stars": 5,
       "updated": "2026-06-09"
-    },
-    {
-      "name": "saf-vs-cdr-explorer",
-      "url": "https://github.com/hausfath/saf-vs-cdr-explorer",
-      "description": "Interactive explorer: sustainable aviation fuel vs carbon removal — cost per tonne of CO2 across 14 biomass pathways, with adjustable assumptions",
-      "language": "HTML",
-      "stars": 0,
-      "updated": "2026-09-24"
     },
     {
       "name": "oae-atlas-preview",
