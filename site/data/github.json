@@ -1,8 +1,16 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "repos": [
+    {
+      "name": "permitting-scorecard-2026",
+      "url": "https://github.com/hausfath/permitting-scorecard-2026",
+      "description": "Provision-by-provision scorecard of the 2026 Senate permitting deal and its likely US emissions effects",
+      "language": "Python",
+      "stars": 0,
+      "updated": "2026-09-30"
+    },
     {
       "name": "climate-dashboard",
       "url": "https://github.com/hausfath/climate-dashboard",
@@ -42,14 +50,6 @@
       "language": "HTML",
       "stars": 0,
       "updated": "2026-09-24"
-    },
-    {
-      "name": "co2-storage-map",
-      "url": "https://github.com/hausfath/co2-storage-map",
-      "description": "Interactive global atlas of CO2 storage potential: geologic injection basins + in-situ mineralization formations",
-      "language": "JavaScript",
-      "stars": 0,
-      "updated": "2026-09-21"
     }
   ]
 }
