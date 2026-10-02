@@ -1,15 +1,23 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "repos": [
     {
-      "name": "permitting-scorecard-2026",
-      "url": "https://github.com/hausfath/permitting-scorecard-2026",
-      "description": "Provision-by-provision scorecard of the 2026 Senate permitting deal and its likely US emissions effects",
+      "name": "sf-train-set",
+      "url": "https://github.com/hausfath/sf-train-set",
+      "description": "San Francisco as an interactive 3D model train set, built on real terrain and OpenStreetMap geometry",
+      "language": "HTML",
+      "stars": 1,
+      "updated": "2026-09-03"
+    },
+    {
+      "name": "warming-map",
+      "url": "https://github.com/hausfath/warming-map",
+      "description": "Interactive map of 175 years of temperature change, built on Berkeley Earth gridded data",
       "language": "Python",
-      "stars": 0,
-      "updated": "2026-09-30"
+      "stars": 1,
+      "updated": "2026-10-02"
     },
     {
       "name": "climate-dashboard",
@@ -17,31 +25,15 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 12,
-      "updated": "2026-09-30"
+      "updated": "2026-10-01"
     },
     {
-      "name": "el-nino-2026-impacts",
-      "url": "https://github.com/hausfath/el-nino-2026-impacts",
-      "description": "Code and data behind the Climate Brink El Niño 2026-27 impacts post and the Climate Dashboard El Niño Impacts tab",
+      "name": "conus-record-year-2026",
+      "url": "https://github.com/hausfath/conus-record-year-2026",
+      "description": "Odds that 2026 is the warmest year on record for the contiguous U.S., from NOAA monthly data",
       "language": "Python",
-      "stars": 2,
-      "updated": "2026-09-27"
-    },
-    {
-      "name": "saf-vs-cdr-explorer",
-      "url": "https://github.com/hausfath/saf-vs-cdr-explorer",
-      "description": "Interactive explorer: sustainable aviation fuel vs carbon removal — cost per tonne of CO2 across 14 biomass pathways, with adjustable assumptions",
-      "language": "HTML",
       "stars": 0,
-      "updated": "2026-09-28"
-    },
-    {
-      "name": "atmospheric_concentrations",
-      "url": "https://github.com/hausfath/atmospheric_concentrations",
-      "description": "",
-      "language": "Python",
-      "stars": 5,
-      "updated": "2026-06-09"
+      "updated": "2026-10-01"
     },
     {
       "name": "oae-atlas-preview",
@@ -49,7 +41,15 @@
       "description": "Temporary internal preview (Frontier) - will be deleted",
       "language": "HTML",
       "stars": 0,
-      "updated": "2026-09-24"
+      "updated": "2026-10-01"
+    },
+    {
+      "name": "permitting-scorecard-2026",
+      "url": "https://github.com/hausfath/permitting-scorecard-2026",
+      "description": "Provision-by-provision scorecard of the 2026 Senate permitting deal and its likely US emissions effects",
+      "language": "Python",
+      "stars": 0,
+      "updated": "2026-10-01"
     }
   ]
 }
