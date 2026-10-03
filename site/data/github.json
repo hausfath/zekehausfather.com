@@ -1,8 +1,32 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "repos": [
+    {
+      "name": "wind-solar-counterfactual",
+      "url": "https://github.com/hausfath/wind-solar-counterfactual",
+      "description": "What would power-sector emissions and global temperatures look like if wind and solar had stopped growing in 2005? Country-level counterfactual + FaIR. Code and data for the Climate Brink post.",
+      "language": "Python",
+      "stars": 0,
+      "updated": "2026-10-02"
+    },
+    {
+      "name": "climate-dashboard",
+      "url": "https://github.com/hausfath/climate-dashboard",
+      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
+      "language": "Python",
+      "stars": 12,
+      "updated": "2026-10-02"
+    },
+    {
+      "name": "saf-vs-cdr-explorer",
+      "url": "https://github.com/hausfath/saf-vs-cdr-explorer",
+      "description": "Interactive explorer: sustainable aviation fuel vs carbon removal — cost per tonne of CO2 across 14 biomass pathways, with adjustable assumptions",
+      "language": "HTML",
+      "stars": 0,
+      "updated": "2026-10-02"
+    },
     {
       "name": "sf-train-set",
       "url": "https://github.com/hausfath/sf-train-set",
@@ -20,33 +44,9 @@
       "updated": "2026-10-02"
     },
     {
-      "name": "climate-dashboard",
-      "url": "https://github.com/hausfath/climate-dashboard",
-      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
-      "language": "Python",
-      "stars": 12,
-      "updated": "2026-10-01"
-    },
-    {
       "name": "conus-record-year-2026",
       "url": "https://github.com/hausfath/conus-record-year-2026",
       "description": "Odds that 2026 is the warmest year on record for the contiguous U.S., from NOAA monthly data",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-10-01"
-    },
-    {
-      "name": "oae-atlas-preview",
-      "url": "https://github.com/hausfath/oae-atlas-preview",
-      "description": "Temporary internal preview (Frontier) - will be deleted",
-      "language": "HTML",
-      "stars": 0,
-      "updated": "2026-10-01"
-    },
-    {
-      "name": "permitting-scorecard-2026",
-      "url": "https://github.com/hausfath/permitting-scorecard-2026",
-      "description": "Provision-by-provision scorecard of the 2026 Senate permitting deal and its likely US emissions effects",
       "language": "Python",
       "stars": 0,
       "updated": "2026-10-01"
