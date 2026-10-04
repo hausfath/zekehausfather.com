@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "repos": [
     {
       "name": "wind-solar-counterfactual",
@@ -9,7 +9,7 @@
       "description": "What would power-sector emissions and global temperatures look like if wind and solar had stopped growing in 2005? Country-level counterfactual + FaIR. Code and data for the Climate Brink post.",
       "language": "Python",
       "stars": 0,
-      "updated": "2026-10-02"
+      "updated": "2026-10-04"
     },
     {
       "name": "climate-dashboard",
@@ -17,7 +17,7 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 12,
-      "updated": "2026-10-02"
+      "updated": "2026-10-03"
     },
     {
       "name": "saf-vs-cdr-explorer",
