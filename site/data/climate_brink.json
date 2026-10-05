@@ -1,8 +1,15 @@
 {
   "source": "The Climate Brink",
   "author_url": "https://www.theclimatebrink.com/",
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "posts": [
+    {
+      "title": "The world without solar and wind?",
+      "url": "https://www.theclimatebrink.com/p/what-if-the-world-hadnt-built-wind",
+      "date": "2026-10-05",
+      "description": "Clean energy does not simply “add to” global energy use; it displaces fossil sources that would otherwise get built.",
+      "author": "Zeke Hausfather"
+    },
     {
       "title": "The impacts of this year’s record-shattering El Niño",
       "url": "https://www.theclimatebrink.com/p/the-impacts-of-this-years-record",
@@ -50,13 +57,6 @@
       "url": "https://www.theclimatebrink.com/p/canadas-boreal-wildfires-arent-just",
       "date": "2026-07-17",
       "description": "Higher fire season temperatures are strongly correlated with increased area burned",
-      "author": "Zeke Hausfather"
-    },
-    {
-      "title": "The Strongest El Niño Ever",
-      "url": "https://www.theclimatebrink.com/p/the-strongest-el-nino-ever",
-      "date": "2026-07-13",
-      "description": "With all the July runs in, dynamical models give a ~90% chance of a record-setting event",
       "author": "Zeke Hausfather"
     }
   ]
