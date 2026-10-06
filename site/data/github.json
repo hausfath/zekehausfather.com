@@ -1,15 +1,15 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "repos": [
     {
-      "name": "climate-dashboard",
-      "url": "https://github.com/hausfath/climate-dashboard",
-      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
+      "name": "el-nino-2026-impacts",
+      "url": "https://github.com/hausfath/el-nino-2026-impacts",
+      "description": "Code and data behind the Climate Brink El Niño 2026-27 impacts post and the Climate Dashboard El Niño Impacts tab",
       "language": "Python",
-      "stars": 12,
-      "updated": "2026-10-04"
+      "stars": 2,
+      "updated": "2026-09-27"
     },
     {
       "name": "wind-solar-counterfactual",
@@ -17,7 +17,15 @@
       "description": "What would power-sector emissions and global temperatures look like if wind and solar had stopped growing in 2005? Country-level counterfactual + FaIR. Code and data for the Climate Brink post.",
       "language": "Python",
       "stars": 0,
-      "updated": "2026-10-04"
+      "updated": "2026-10-06"
+    },
+    {
+      "name": "climate-dashboard",
+      "url": "https://github.com/hausfath/climate-dashboard",
+      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
+      "language": "Python",
+      "stars": 12,
+      "updated": "2026-10-06"
     },
     {
       "name": "saf-vs-cdr-explorer",
@@ -42,14 +50,6 @@
       "language": "Python",
       "stars": 1,
       "updated": "2026-10-02"
-    },
-    {
-      "name": "conus-record-year-2026",
-      "url": "https://github.com/hausfath/conus-record-year-2026",
-      "description": "Odds that 2026 is the warmest year on record for the contiguous U.S., from NOAA monthly data",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-10-01"
     }
   ]
 }
