@@ -1,8 +1,16 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "repos": [
+    {
+      "name": "climate-dashboard",
+      "url": "https://github.com/hausfath/climate-dashboard",
+      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
+      "language": "Python",
+      "stars": 12,
+      "updated": "2026-10-06"
+    },
     {
       "name": "el-nino-2026-impacts",
       "url": "https://github.com/hausfath/el-nino-2026-impacts",
@@ -17,14 +25,6 @@
       "description": "What would power-sector emissions and global temperatures look like if wind and solar had stopped growing in 2005? Country-level counterfactual + FaIR. Code and data for the Climate Brink post.",
       "language": "Python",
       "stars": 0,
-      "updated": "2026-10-06"
-    },
-    {
-      "name": "climate-dashboard",
-      "url": "https://github.com/hausfath/climate-dashboard",
-      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
-      "language": "Python",
-      "stars": 12,
       "updated": "2026-10-06"
     },
     {
