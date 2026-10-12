@@ -1,6 +1,6 @@
 {
   "source": "Media coverage",
-  "updated": "2026-09-28",
+  "updated": "2026-10-12",
   "note": "Curated highlights plus major-outlet coverage from GDELT and Google News (past 12 months).",
   "items": [
     {
@@ -261,13 +261,6 @@
       "url": "https://www.bloomberg.com/news/articles/2026-03-13/ai-scientists-help-human-ones-answer-urgent-climate-questions",
       "date": "2026-03-13",
       "note": "Featured on how AI tools are helping researchers tackle urgent climate questions."
-    },
-    {
-      "title": "A dramatic, record-setting El Niño may be brewing, forecasters say",
-      "outlet": "USA Today",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUVlZUXdVRHIxUW53b29BV2JoZ2drX1FZWXNPbGpDODJjQU9VRm5FcEx3dXJJV21sbllISEdfT0hBdWFwU01LRENCSlpFb1JWNktsLUZhV051eFdXMjJpMGJVejFVQ19DcUNGdWhPMTMzMlVuc19XZGFRbDBoUU94UXQzbXJRZDMtRnB2VGhxMHNDSzdVSk1UZnRfT2FmdzN6bFVzZlBR?oc=5",
-      "date": "2026-03-12",
-      "note": ""
     }
   ]
 }
