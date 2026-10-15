@@ -1,15 +1,23 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "repos": [
+    {
+      "name": "co2-storage-map",
+      "url": "https://github.com/hausfath/co2-storage-map",
+      "description": "Interactive global atlas of CO2 storage potential: geologic injection basins + in-situ mineralization formations",
+      "language": "Python",
+      "stars": 0,
+      "updated": "2026-10-15"
+    },
     {
       "name": "climate-dashboard",
       "url": "https://github.com/hausfath/climate-dashboard",
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 12,
-      "updated": "2026-10-13"
+      "updated": "2026-10-14"
     },
     {
       "name": "el-nino-2026-impacts",
@@ -42,14 +50,6 @@
       "language": "HTML",
       "stars": 1,
       "updated": "2026-09-03"
-    },
-    {
-      "name": "warming-map",
-      "url": "https://github.com/hausfath/warming-map",
-      "description": "Interactive map of 175 years of temperature change, built on Berkeley Earth gridded data",
-      "language": "Python",
-      "stars": 1,
-      "updated": "2026-10-02"
     }
   ]
 }
