@@ -1,8 +1,15 @@
 {
   "source": "The Climate Brink",
   "author_url": "https://www.theclimatebrink.com/",
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "posts": [
+    {
+      "title": "How not to detect warming acceleration",
+      "url": "https://www.theclimatebrink.com/p/how-not-to-detect-warming-acceleration",
+      "date": "2026-10-19",
+      "description": "A new paper finding significant acceleration uses an inappropriate test with high false-positive rates",
+      "author": "Zeke Hausfather"
+    },
     {
       "title": "The strongest El Niño in a thousand years?",
       "url": "https://www.theclimatebrink.com/p/the-strongest-el-nino-in-a-thousand",
@@ -50,13 +57,6 @@
       "url": "https://www.theclimatebrink.com/p/why-hansen-may-end-up-being-right",
       "date": "2026-07-30",
       "description": "Whether 2026 sets a new record is increasingly likely to be a spit decision between different groups",
-      "author": "Zeke Hausfather"
-    },
-    {
-      "title": "Hot days, cold thermometers",
-      "url": "https://www.theclimatebrink.com/p/hot-days-cold-thermometers",
-      "date": "2026-07-22",
-      "description": "Why a viral graph on US days above 95F is misleading and overstates regional warmth",
       "author": "Zeke Hausfather"
     }
   ]
