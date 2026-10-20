@@ -1,15 +1,23 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "repos": [
+    {
+      "name": "bicrs-map-uk",
+      "url": "https://github.com/hausfath/bicrs-map-uk",
+      "description": "UK BiCRS Atlas — interactive feedstock, CO2 storage & best-use-of-biomass map for the United Kingdom (UK subset of Frontier's BiCRS Atlas)",
+      "language": "JavaScript",
+      "stars": 0,
+      "updated": "2026-10-20"
+    },
     {
       "name": "biomass_map",
       "url": "https://github.com/hausfath/biomass_map",
       "description": "Interactive BiCRS/BECCS feedstock, CO2 storage & best-use-of-biomass map (Frontier strategy tool)",
       "language": "Python",
       "stars": 0,
-      "updated": "2026-10-19"
+      "updated": "2026-10-20"
     },
     {
       "name": "climate-dashboard",
@@ -17,7 +25,7 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 12,
-      "updated": "2026-10-18"
+      "updated": "2026-10-19"
     },
     {
       "name": "co2-storage-map",
@@ -42,14 +50,6 @@
       "language": "Python",
       "stars": 0,
       "updated": "2026-10-06"
-    },
-    {
-      "name": "saf-vs-cdr-explorer",
-      "url": "https://github.com/hausfath/saf-vs-cdr-explorer",
-      "description": "Interactive explorer: sustainable aviation fuel vs carbon removal — cost per tonne of CO2 across 14 biomass pathways, with adjustable assumptions",
-      "language": "HTML",
-      "stars": 0,
-      "updated": "2026-10-02"
     }
   ]
 }
