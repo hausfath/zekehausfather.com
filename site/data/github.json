@@ -1,8 +1,24 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "repos": [
+    {
+      "name": "climate-dashboard",
+      "url": "https://github.com/hausfath/climate-dashboard",
+      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
+      "language": "Python",
+      "stars": 12,
+      "updated": "2026-10-20"
+    },
+    {
+      "name": "saf-vs-cdr-explorer",
+      "url": "https://github.com/hausfath/saf-vs-cdr-explorer",
+      "description": "Interactive explorer: sustainable aviation fuel vs carbon removal — cost per tonne of CO2 across 14 biomass pathways, with adjustable assumptions",
+      "language": "HTML",
+      "stars": 0,
+      "updated": "2026-10-20"
+    },
     {
       "name": "bicrs-map-uk",
       "url": "https://github.com/hausfath/bicrs-map-uk",
@@ -20,14 +36,6 @@
       "updated": "2026-10-20"
     },
     {
-      "name": "climate-dashboard",
-      "url": "https://github.com/hausfath/climate-dashboard",
-      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
-      "language": "Python",
-      "stars": 12,
-      "updated": "2026-10-19"
-    },
-    {
       "name": "co2-storage-map",
       "url": "https://github.com/hausfath/co2-storage-map",
       "description": "Interactive global atlas of CO2 storage potential: geologic injection basins + in-situ mineralization formations",
@@ -42,14 +50,6 @@
       "language": "Python",
       "stars": 2,
       "updated": "2026-09-27"
-    },
-    {
-      "name": "wind-solar-counterfactual",
-      "url": "https://github.com/hausfath/wind-solar-counterfactual",
-      "description": "What would power-sector emissions and global temperatures look like if wind and solar had stopped growing in 2005? Country-level counterfactual + FaIR. Code and data for the Climate Brink post.",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-10-06"
     }
   ]
 }
