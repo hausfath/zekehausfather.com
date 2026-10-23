@@ -1,15 +1,31 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-10-21",
+  "updated": "2026-10-23",
   "repos": [
     {
       "name": "climate-dashboard",
       "url": "https://github.com/hausfath/climate-dashboard",
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
-      "stars": 12,
-      "updated": "2026-10-20"
+      "stars": 13,
+      "updated": "2026-10-22"
+    },
+    {
+      "name": "biomass_map",
+      "url": "https://github.com/hausfath/biomass_map",
+      "description": "Interactive BiCRS/BECCS feedstock, CO2 storage & best-use-of-biomass map (Frontier strategy tool)",
+      "language": "Python",
+      "stars": 0,
+      "updated": "2026-10-22"
+    },
+    {
+      "name": "permitting-scorecard-2026",
+      "url": "https://github.com/hausfath/permitting-scorecard-2026",
+      "description": "Provision-by-provision scorecard of the 2026 Senate permitting deal and its likely US emissions effects",
+      "language": "Python",
+      "stars": 0,
+      "updated": "2026-10-22"
     },
     {
       "name": "saf-vs-cdr-explorer",
@@ -28,28 +44,12 @@
       "updated": "2026-10-20"
     },
     {
-      "name": "biomass_map",
-      "url": "https://github.com/hausfath/biomass_map",
-      "description": "Interactive BiCRS/BECCS feedstock, CO2 storage & best-use-of-biomass map (Frontier strategy tool)",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-10-20"
-    },
-    {
       "name": "co2-storage-map",
       "url": "https://github.com/hausfath/co2-storage-map",
       "description": "Interactive global atlas of CO2 storage potential: geologic injection basins + in-situ mineralization formations",
       "language": "JavaScript",
       "stars": 0,
       "updated": "2026-10-16"
-    },
-    {
-      "name": "el-nino-2026-impacts",
-      "url": "https://github.com/hausfath/el-nino-2026-impacts",
-      "description": "Code and data behind the Climate Brink El Niño 2026-27 impacts post and the Climate Dashboard El Niño Impacts tab",
-      "language": "Python",
-      "stars": 2,
-      "updated": "2026-09-27"
     }
   ]
 }
