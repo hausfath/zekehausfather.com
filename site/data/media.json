@@ -1,13 +1,48 @@
 {
   "source": "Media coverage",
-  "updated": "2026-10-19",
+  "updated": "2026-10-26",
   "note": "Curated highlights plus major-outlet coverage from GDELT and Google News (past 12 months).",
   "items": [
+    {
+      "title": "Why haven’t we had an Atlantic hurricane yet? Thank El Niño.",
+      "outlet": "Grist",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORDIzYmlieFZCRmVLbllFQnVTaDhEdTdaZVZrcFI0RlRBeHdTaXpzaU5IQndJSGdJY2ZrYkZFUjRCU0d3Y3FxLUtKYmw3QkU2ZUlXamdJU2hfbmN0dEdTcG5neGlhUUhSaFZsa21JOVNFTFMtQ3hyT3FtNnJPakEtNW9iLXAyWjZIcFFUc1Q3elNud3lfR2xF?oc=5",
+      "date": "2026-09-25",
+      "note": ""
+    },
+    {
+      "title": "The worst El Niño in recorded history is brewing — here’s how governments must prepare",
+      "outlet": "Nature",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ORmt5TXVTdUdvWkZiNzdTZWhJUnlaOG1ZaTR3REtaZUtIMHF5SjFseGRoS1p0a2ZINTRtZ3lUazFMbWRxcHVYbFp1OTdvYUNweFNINWZGbmhTUVBWdWU4?oc=5",
+      "date": "2026-09-22",
+      "note": ""
+    },
     {
       "title": "Opinion | The Climate May Have Some Surprises in Store",
       "outlet": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQkx3ZGVVSHprMVFURjBYWkQyR1g0TEYtbDg3V3RrNERzV1MtTS02UU1YX0pHZDJ2T2FZSGxKUndWSmJpYm9aeHVEbDFFT0dZZHJUTldHQ1FZQXBPdWxaOWx3UThULWU2U3JvcmZxVFBFRTJkRUxKMkQ0WTBmUEtHYw?oc=5",
       "date": "2026-09-22",
+      "note": ""
+    },
+    {
+      "title": "August was Earth hottest month , European climate agency finds",
+      "outlet": "CBC News",
+      "url": "https://www.cbc.ca/news/science/august-2026-hottest-month-9.7338753",
+      "date": "2026-09-10",
+      "note": ""
+    },
+    {
+      "title": "Global heat stuck on high : August was Earth hottest month on record , scientists say",
+      "outlet": "NBC News",
+      "url": "https://www.nbcnews.com/world/europe/earth-hottest-month-record-global-heat-record-high-august-rcna596975",
+      "date": "2026-09-10",
+      "note": ""
+    },
+    {
+      "title": "Scientists say August was Earth hottest month theyve measured",
+      "outlet": "PBS NewsHour",
+      "url": "https://www.kpbs.org/news/international/2026/09/10/scientists-say-august-was-earths-hottest-month-theyve-measured",
+      "date": "2026-09-10",
       "note": ""
     },
     {
@@ -247,27 +282,6 @@
       "url": "https://www.nature.com/articles/d41586-026-01477-w",
       "date": "2026-05-12",
       "note": "Featured for using AI to code new climate-data visualizations, including his 3D tree-ring temperature plots."
-    },
-    {
-      "title": "WATCH — Why El Niño could make 2026 the hottest year ever recorded | videoclip | Kids News",
-      "outlet": "CBC News",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeFhEaTJYS0dUbkdDM1djSjRLMlg1OGNMYzh3dG5qZG5oLWdjUngwOTVqT01JcWZ0NjUtdW94QUdneVZBTlhCa3dqcFNsUUlXUkl5anlEZm9yb2tfaUlxNjFxdmJWUHVMM1g1b1dTc3FnR2Y2eHBPREQ1NFMtZTkwS0JBNFRJNU9zc3hKdENWeXFnUHpfZDFKYUpibGpFdw?oc=5",
-      "date": "2026-03-24",
-      "note": ""
-    },
-    {
-      "title": "AI Scientists Help Human Ones Answer Urgent Climate Questions",
-      "outlet": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-13/ai-scientists-help-human-ones-answer-urgent-climate-questions",
-      "date": "2026-03-13",
-      "note": "Featured on how AI tools are helping researchers tackle urgent climate questions."
-    },
-    {
-      "title": "A dramatic, record-setting El Niño may be brewing, forecasters say",
-      "outlet": "USA Today",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUVlZUXdVRHIxUW53b29BV2JoZ2drX1FZWXNPbGpDODJjQU9VRm5FcEx3dXJJV21sbllISEdfT0hBdWFwU01LRENCSlpFb1JWNktsLUZhV051eFdXMjJpMGJVejFVQ19DcUNGdWhPMTMzMlVuc19XZGFRbDBoUU94UXQzbXJRZDMtRnB2VGhxMHNDSzdVSk1UZnRfT2FmdzN6bFVzZlBR?oc=5",
-      "date": "2026-03-12",
-      "note": ""
     }
   ]
 }

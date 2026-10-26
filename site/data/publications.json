@@ -1,7 +1,7 @@
 {
   "source": "OpenAlex",
   "author_url": "https://openalex.org/A5085329398",
-  "updated": "2026-10-19",
+  "updated": "2026-10-26",
   "count": 41,
   "publications": [
     {
@@ -9,7 +9,7 @@
       "title": "Ocean Heat Content Sets Another Record in 2025",
       "venue": "Advances in Atmospheric Sciences",
       "url": "https://doi.org/10.1007/s00376-026-5876-0",
-      "cites": 20
+      "cites": 21
     },
     {
       "year": 2026,
@@ -37,28 +37,28 @@
       "title": "Indicators of Global Climate Change 2024: annual update of key indicators of the state of the climate system and human influence",
       "venue": "Earth system science data",
       "url": "https://doi.org/10.5194/essd-17-2641-2025",
-      "cites": 185
+      "cites": 189
     },
     {
       "year": 2025,
       "title": "Record High Temperatures in the Ocean in 2024",
       "venue": "Advances in Atmospheric Sciences",
       "url": "https://doi.org/10.1007/s00376-025-4541-3",
-      "cites": 75
+      "cites": 76
     },
     {
       "year": 2025,
       "title": "An assessment of current policy scenarios over the 21st century and the reduced plausibility of high-emissions pathways",
       "venue": "Dialogues on climate change",
       "url": "https://doi.org/10.1177/29768659241304854",
-      "cites": 37
+      "cites": 38
     },
     {
       "year": 2024,
       "title": "Durability of carbon dioxide removal is critical for Paris climate goals",
       "venue": "Communications Earth & Environment",
       "url": "https://doi.org/10.1038/s43247-024-01808-7",
-      "cites": 67
+      "cites": 68
     },
     {
       "year": 2024,
@@ -114,7 +114,7 @@
       "title": "Improved Quantification of the Rate of Ocean Warming",
       "venue": "Journal of Climate",
       "url": "https://doi.org/10.1175/jcli-d-21-0895.1",
-      "cites": 68
+      "cites": 69
     },
     {
       "year": 2022,
@@ -135,21 +135,21 @@
       "title": "An Assessment of Earth's Climate Sensitivity Using Multiple Lines of Evidence",
       "venue": "Reviews of Geophysics",
       "url": "https://doi.org/10.1029/2019rg000678",
-      "cites": 1249
+      "cites": 1251
     },
     {
       "year": 2020,
       "title": "Emissions – the ‘business as usual’ story is misleading",
       "venue": "Nature",
       "url": "https://doi.org/10.1038/d41586-020-00177-3",
-      "cites": 1216
+      "cites": 1217
     },
     {
       "year": 2020,
       "title": "The Berkeley Earth Land/Ocean Temperature Record",
       "venue": "Earth system science data",
       "url": "https://doi.org/10.5194/essd-12-3469-2020",
-      "cites": 551
+      "cites": 553
     },
     {
       "year": 2020,
@@ -163,14 +163,14 @@
       "title": "Contribution of the land sector to a 1.5 °C world",
       "venue": "Nature Climate Change",
       "url": "https://doi.org/10.1038/s41558-019-0591-9",
-      "cites": 620
+      "cites": 621
     },
     {
       "year": 2019,
       "title": "How fast are the oceans warming?",
       "venue": "Science",
       "url": "https://doi.org/10.1126/science.aav7619",
-      "cites": 548
+      "cites": 550
     },
     {
       "year": 2019,
@@ -205,7 +205,7 @@
       "title": "Assessing recent warming using instrumentally homogeneous sea surface temperature records",
       "venue": "Science Advances",
       "url": "https://doi.org/10.1126/sciadv.1601207",
-      "cites": 118
+      "cites": 119
     },
     {
       "year": 2017,
