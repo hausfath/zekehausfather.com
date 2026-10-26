@@ -1,8 +1,15 @@
 {
   "source": "The Climate Brink",
   "author_url": "https://www.theclimatebrink.com/",
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "posts": [
+    {
+      "title": "Off-grid data centers have 60-80% higher emissions",
+      "url": "https://www.theclimatebrink.com/p/off-grid-data-centers-have-60-80",
+      "date": "2026-10-26",
+      "description": "A rush to power is leading data centers to install the least efficient and leakiest types of fossil gas generators rather than connecting to the grid",
+      "author": "Zeke Hausfather"
+    },
     {
       "title": "How not to detect warming acceleration",
       "url": "https://www.theclimatebrink.com/p/how-not-to-detect-warming-acceleration",
@@ -50,13 +57,6 @@
       "url": "https://www.theclimatebrink.com/p/the-real-energy-use-of-agentic-ai",
       "date": "2026-08-05",
       "description": "Agents use about 600x more energy than simple AI prompts",
-      "author": "Zeke Hausfather"
-    },
-    {
-      "title": "Why Hansen may end up being right about 2026",
-      "url": "https://www.theclimatebrink.com/p/why-hansen-may-end-up-being-right",
-      "date": "2026-07-30",
-      "description": "Whether 2026 sets a new record is increasingly likely to be a spit decision between different groups",
       "author": "Zeke Hausfather"
     }
   ]
