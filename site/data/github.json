@@ -1,23 +1,23 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "repos": [
+    {
+      "name": "datacenter-methane",
+      "url": "https://github.com/hausfath/datacenter-methane",
+      "description": "Per-MWh CO2e of off-grid (behind-the-meter) gas for data centers vs the grid, with methane leaks and engine slip",
+      "language": "Python",
+      "stars": 1,
+      "updated": "2026-10-27"
+    },
     {
       "name": "climate-dashboard",
       "url": "https://github.com/hausfath/climate-dashboard",
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 13,
-      "updated": "2026-10-26"
-    },
-    {
-      "name": "datacenter-methane",
-      "url": "https://github.com/hausfath/datacenter-methane",
-      "description": "Per-MWh CO2e of off-grid (behind-the-meter) gas for data centers vs the grid, with methane leaks and engine slip",
-      "language": "Python",
-      "stars": 0,
-      "updated": "2026-10-25"
+      "updated": "2026-10-27"
     },
     {
       "name": "biomass_map",
