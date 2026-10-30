@@ -1,23 +1,31 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "repos": [
-    {
-      "name": "climate-dashboard",
-      "url": "https://github.com/hausfath/climate-dashboard",
-      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
-      "language": "Python",
-      "stars": 13,
-      "updated": "2026-10-29"
-    },
     {
       "name": "datacenter-methane",
       "url": "https://github.com/hausfath/datacenter-methane",
       "description": "Per-MWh CO2e of off-grid (behind-the-meter) gas for data centers vs the grid, with methane leaks and engine slip",
       "language": "Python",
       "stars": 1,
-      "updated": "2026-10-27"
+      "updated": "2026-10-30"
+    },
+    {
+      "name": "climate-dashboard",
+      "url": "https://github.com/hausfath/climate-dashboard",
+      "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
+      "language": "Python",
+      "stars": 13,
+      "updated": "2026-10-30"
+    },
+    {
+      "name": "saf-vs-cdr-explorer",
+      "url": "https://github.com/hausfath/saf-vs-cdr-explorer",
+      "description": "Interactive explorer: sustainable aviation fuel vs carbon removal — cost per tonne of CO2 across 14 biomass pathways, with adjustable assumptions",
+      "language": "HTML",
+      "stars": 0,
+      "updated": "2026-10-29"
     },
     {
       "name": "biomass_map",
@@ -34,14 +42,6 @@
       "language": "Python",
       "stars": 0,
       "updated": "2026-10-22"
-    },
-    {
-      "name": "saf-vs-cdr-explorer",
-      "url": "https://github.com/hausfath/saf-vs-cdr-explorer",
-      "description": "Interactive explorer: sustainable aviation fuel vs carbon removal — cost per tonne of CO2 across 14 biomass pathways, with adjustable assumptions",
-      "language": "HTML",
-      "stars": 0,
-      "updated": "2026-10-20"
     },
     {
       "name": "bicrs-map-uk",
