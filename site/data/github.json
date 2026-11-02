@@ -1,15 +1,23 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "repos": [
     {
       "name": "climate-dashboard",
       "url": "https://github.com/hausfath/climate-dashboard",
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
-      "stars": 13,
-      "updated": "2026-11-01"
+      "stars": 14,
+      "updated": "2026-11-02"
+    },
+    {
+      "name": "cmip7-analysis",
+      "url": "https://github.com/hausfath/cmip7-analysis",
+      "description": "CMIP7 historical warming and climate sensitivity compared with observations and CMIP6",
+      "language": "Python",
+      "stars": 0,
+      "updated": "2026-11-02"
     },
     {
       "name": "datacenter-methane",
@@ -42,14 +50,6 @@
       "language": "Python",
       "stars": 0,
       "updated": "2026-10-22"
-    },
-    {
-      "name": "bicrs-map-uk",
-      "url": "https://github.com/hausfath/bicrs-map-uk",
-      "description": "UK BiCRS Atlas — interactive feedstock, CO2 storage & best-use-of-biomass map for the United Kingdom (UK subset of Frontier's BiCRS Atlas)",
-      "language": "JavaScript",
-      "stars": 0,
-      "updated": "2026-10-20"
     }
   ]
 }
