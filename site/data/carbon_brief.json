@@ -1,8 +1,15 @@
 {
   "source": "Carbon Brief",
   "author_url": "https://www.carbonbrief.org/author/zekehausfather/",
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "posts": [
+    {
+      "title": "State of the climate: 2026 likely to tie with 2024 as the warmest year on record",
+      "url": "https://www.carbonbrief.org/state-of-the-climate-2026-likely-to-tie-with-2024-as-the-warmest-year-on-record",
+      "date": "2026-11-03",
+      "description": "With three-quarters of the year now past, it is virtually certain that 2026 will be the warmest or second-warmest year…",
+      "category": ""
+    },
     {
       "title": "Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record",
       "url": "https://www.carbonbrief.org/analysis-super-el-nino-reaches-remarkable-all-time-record",
@@ -50,13 +57,6 @@
       "url": "https://www.carbonbrief.org/state-of-the-climate-2025-in-top-three-hottest-years-on-record-as-ocean-heat-surges-9",
       "date": "2026-01-14",
       "description": "The year 2025 was in the top-three warmest years on record, with average surface temperatures reaching around 1.44C above pre-industrial…",
-      "category": ""
-    },
-    {
-      "title": "Analysis: What are the causes of recent record-high global temperatures?",
-      "url": "https://www.carbonbrief.org/analysis-what-are-the-causes-of-recent-record-high-global-temperatures",
-      "date": "2025-12-10",
-      "description": "The past three years have been exceptionally warm globally. In 2023, global temperatures reached a new high, after they significantly…",
       "category": ""
     }
   ]
