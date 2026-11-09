@@ -1,29 +1,29 @@
 {
   "source": "OpenAlex",
   "author_url": "https://openalex.org/A5085329398",
-  "updated": "2026-11-02",
-  "count": 41,
+  "updated": "2026-11-09",
+  "count": 42,
   "publications": [
     {
       "year": 2026,
       "title": "Ocean Heat Content Sets Another Record in 2025",
       "venue": "Advances in Atmospheric Sciences",
       "url": "https://doi.org/10.1007/s00376-026-5876-0",
-      "cites": 21
-    },
-    {
-      "year": 2026,
-      "title": "The worst El Niño in recorded history is brewing — here’s how governments must prepare",
-      "venue": "Nature",
-      "url": "https://doi.org/10.1038/d41586-026-02939-x",
-      "cites": 0
+      "cites": 29
     },
     {
       "year": 2026,
       "title": "The Value of Reversible Carbon Storage in a Zero-Emissions World",
       "venue": "Environmental Science & Technology",
       "url": "https://doi.org/10.1021/acs.est.6c00333",
-      "cites": 0
+      "cites": 2
+    },
+    {
+      "year": 2026,
+      "title": "The worst El Niño in recorded history is brewing — here’s how governments must prepare",
+      "venue": "Nature",
+      "url": "https://doi.org/10.1038/d41586-026-02939-x",
+      "cites": 1
     },
     {
       "year": 2026,
@@ -37,49 +37,49 @@
       "title": "Indicators of Global Climate Change 2024: annual update of key indicators of the state of the climate system and human influence",
       "venue": "Earth system science data",
       "url": "https://doi.org/10.5194/essd-17-2641-2025",
-      "cites": 193
+      "cites": 288
     },
     {
       "year": 2025,
       "title": "Record High Temperatures in the Ocean in 2024",
       "venue": "Advances in Atmospheric Sciences",
       "url": "https://doi.org/10.1007/s00376-025-4541-3",
-      "cites": 76
+      "cites": 99
     },
     {
       "year": 2025,
       "title": "An assessment of current policy scenarios over the 21st century and the reduced plausibility of high-emissions pathways",
       "venue": "Dialogues on climate change",
       "url": "https://doi.org/10.1177/29768659241304854",
-      "cites": 39
+      "cites": 54
     },
     {
       "year": 2024,
       "title": "Durability of carbon dioxide removal is critical for Paris climate goals",
       "venue": "Communications Earth & Environment",
       "url": "https://doi.org/10.1038/s43247-024-01808-7",
-      "cites": 69
+      "cites": 86
     },
     {
       "year": 2024,
       "title": "A perspective on the next generation of Earth system model scenarios: towards representative emission pathways (REPs)",
       "venue": "Geoscientific model development",
       "url": "https://doi.org/10.5194/gmd-17-4533-2024",
-      "cites": 44
+      "cites": 67
     },
     {
       "year": 2023,
       "title": "Future demand for electricity generation materials under different climate mitigation scenarios",
       "venue": "Joule",
       "url": "https://doi.org/10.1016/j.joule.2023.01.001",
-      "cites": 160
+      "cites": 174
     },
     {
       "year": 2023,
       "title": "Mechanisms and Impacts of Earth System Tipping Elements",
       "venue": "Reviews of Geophysics",
       "url": "https://doi.org/10.1029/2021rg000757",
-      "cites": 126
+      "cites": 144
     },
     {
       "year": 2023,
@@ -93,35 +93,35 @@
       "title": "Ten new insights in climate science 2023",
       "venue": "Global Sustainability",
       "url": "https://doi.org/10.1017/sus.2023.25",
-      "cites": 47
+      "cites": 55
     },
     {
       "year": 2022,
       "title": "Climate simulations: recognize the ‘hot model’ problem",
       "venue": "Nature",
       "url": "https://doi.org/10.1038/d41586-022-01192-2",
-      "cites": 502
+      "cites": 541
     },
     {
       "year": 2022,
       "title": "The Chinese Carbon-Neutral Goal: Challenges and Prospects",
       "venue": "Advances in Atmospheric Sciences",
       "url": "https://doi.org/10.1007/s00376-021-1313-6",
-      "cites": 109
+      "cites": 116
     },
     {
       "year": 2022,
       "title": "Improved Quantification of the Rate of Ocean Warming",
       "venue": "Journal of Climate",
       "url": "https://doi.org/10.1175/jcli-d-21-0895.1",
-      "cites": 69
+      "cites": 73
     },
     {
       "year": 2022,
       "title": "Net-zero commitments could limit warming to below 2 °C",
       "venue": "Nature",
       "url": "https://doi.org/10.1038/d41586-022-00874-1",
-      "cites": 48
+      "cites": 54
     },
     {
       "year": 2021,
@@ -135,119 +135,126 @@
       "title": "An Assessment of Earth's Climate Sensitivity Using Multiple Lines of Evidence",
       "venue": "Reviews of Geophysics",
       "url": "https://doi.org/10.1029/2019rg000678",
-      "cites": 1255
+      "cites": 1396
     },
     {
       "year": 2020,
       "title": "Emissions – the ‘business as usual’ story is misleading",
       "venue": "Nature",
       "url": "https://doi.org/10.1038/d41586-020-00177-3",
-      "cites": 1218
+      "cites": 1312
     },
     {
       "year": 2020,
       "title": "The Berkeley Earth Land/Ocean Temperature Record",
       "venue": "Earth system science data",
       "url": "https://doi.org/10.5194/essd-12-3469-2020",
-      "cites": 555
+      "cites": 640
     },
     {
       "year": 2020,
       "title": "RCP8.5 is a problematic scenario for near-term emissions",
       "venue": "Proceedings of the National Academy of Sciences",
       "url": "https://doi.org/10.1073/pnas.2017124117",
-      "cites": 150
+      "cites": 157
+    },
+    {
+      "year": 2020,
+      "title": "Navigating the Science-Action Labyrinth",
+      "venue": "One Earth",
+      "url": "https://doi.org/10.1016/j.oneear.2020.04.005",
+      "cites": 1
     },
     {
       "year": 2019,
       "title": "Contribution of the land sector to a 1.5 °C world",
       "venue": "Nature Climate Change",
       "url": "https://doi.org/10.1038/s41558-019-0591-9",
-      "cites": 622
+      "cites": 679
     },
     {
       "year": 2019,
       "title": "How fast are the oceans warming?",
       "venue": "Science",
       "url": "https://doi.org/10.1126/science.aav7619",
-      "cites": 550
+      "cites": 566
     },
     {
       "year": 2019,
       "title": "Evaluating the Performance of Past Climate Model Projections",
       "venue": "Geophysical Research Letters",
       "url": "https://doi.org/10.1029/2019gl085378",
-      "cites": 238
+      "cites": 270
     },
     {
       "year": 2019,
       "title": "A Limited Role for Unforced Internal Variability in Twentieth-Century Warming",
       "venue": "Journal of Climate",
       "url": "https://doi.org/10.1175/jcli-d-18-0555.1",
-      "cites": 97
+      "cites": 99
     },
     {
       "year": 2018,
       "title": "The potential of agricultural land management to contribute to lower global surface temperatures",
       "venue": "Science Advances",
       "url": "https://doi.org/10.1126/sciadv.aaq0932",
-      "cites": 59
+      "cites": 63
     },
     {
       "year": 2018,
       "title": "Towards a global land surface climate fiducial reference measurements network",
       "venue": "International Journal of Climatology",
       "url": "https://doi.org/10.1002/joc.5458",
-      "cites": 47
+      "cites": 52
     },
     {
       "year": 2017,
       "title": "Assessing recent warming using instrumentally homogeneous sea surface temperature records",
       "venue": "Science Advances",
       "url": "https://doi.org/10.1126/sciadv.1601207",
-      "cites": 119
+      "cites": 127
     },
     {
       "year": 2017,
       "title": "Evaluating biases in sea surface temperature records using coastal weather stations",
       "venue": "Quarterly Journal of the Royal Meteorological Society",
       "url": "https://doi.org/10.1002/qj.3235",
-      "cites": 51
+      "cites": 50
     },
     {
       "year": 2016,
       "title": "Reassessing changes in diurnal temperature range: Intercomparison and evaluation of existing global data set estimates",
       "venue": "Journal of Geophysical Research Atmospheres",
       "url": "https://doi.org/10.1002/2015jd024584",
-      "cites": 113
+      "cites": 119
     },
     {
       "year": 2016,
       "title": "Evaluating the impact of U.S. Historical Climatology Network homogenization using the U.S. Climate Reference Network",
       "venue": "Geophysical Research Letters",
       "url": "https://doi.org/10.1002/2015gl067640",
-      "cites": 32
+      "cites": 34
     },
     {
       "year": 2015,
       "title": "Robust comparison of climate models with observations using blended land air and ocean sea surface temperatures",
       "venue": "Geophysical Research Letters",
       "url": "https://doi.org/10.1002/2015gl064888",
-      "cites": 174
+      "cites": 183
     },
     {
       "year": 2015,
       "title": "Climate benefits of natural gas as a bridge fuel and potential delay of near-zero energy systems",
       "venue": "Applied Energy",
       "url": "https://doi.org/10.1016/j.apenergy.2015.10.016",
-      "cites": 143
+      "cites": 152
     },
     {
       "year": 2015,
       "title": "Bounding the climate viability of natural gas as a bridge fuel to displace coal",
       "venue": "Energy Policy",
       "url": "https://doi.org/10.1016/j.enpol.2015.07.012",
-      "cites": 97
+      "cites": 105
     },
     {
       "year": 2015,
@@ -261,28 +268,28 @@
       "title": "A framework for benchmarking of homogenisation algorithm performance on the global scale",
       "venue": "Geoscientific instrumentation, methods and data systems",
       "url": "https://doi.org/10.5194/gi-3-187-2014",
-      "cites": 39
+      "cites": 40
     },
     {
       "year": 2014,
       "title": "Comparing the magnitude of simulated residential rebound effects from electric end-use efficiency across the US",
       "venue": "Environmental Research Letters",
       "url": "https://doi.org/10.1088/1748-9326/9/7/074010",
-      "cites": 10
+      "cites": 12
     },
     {
       "year": 2012,
       "title": "Quantifying the effect of urbanization on U.S. Historical Climatology Network temperature records",
       "venue": "Journal of Geophysical Research Atmospheres",
       "url": "https://doi.org/10.1029/2012jd018509",
-      "cites": 82
+      "cites": 89
     },
     {
       "year": 2012,
       "title": "Metal lost and found: Dissipative uses and releases of copper in the United States 1975–2000",
       "venue": "The Science of The Total Environment",
       "url": "https://doi.org/10.1016/j.scitotenv.2011.09.075",
-      "cites": 63
+      "cites": 69
     },
     {
       "year": 2010,
