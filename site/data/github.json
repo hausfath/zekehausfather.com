@@ -1,7 +1,7 @@
 {
   "source": "GitHub",
   "profile_url": "https://github.com/hausfath",
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "repos": [
     {
       "name": "climate-dashboard",
@@ -9,7 +9,7 @@
       "description": "Interactive global temperature dashboard using ERA5 data with ML-powered projections",
       "language": "Python",
       "stars": 15,
-      "updated": "2026-11-14"
+      "updated": "2026-11-15"
     },
     {
       "name": "cmip7-analysis",
@@ -49,7 +49,7 @@
       "description": "Provision-by-provision scorecard of the 2026 Senate permitting deal and its likely US emissions effects",
       "language": "Python",
       "stars": 0,
-      "updated": "2026-10-22"
+      "updated": "2026-11-15"
     }
   ]
 }
