@@ -8,10 +8,12 @@ fresh on every daily cron run instead of going stale against a checked-in file.
 Set ERA5_CSV to a local path (e.g. the Climate Dashboard's copy) to read that
 file instead — useful for offline/local rebuilds.
 
-Mirrors the baseline logic in The Climate Brink/GMST visualizations/gmst_data.py:
-ERA5 daily anomalies (vs 1991-2020) are shifted onto the 1850-1900 preindustrial
-baseline using per-month offsets. Output is rounded daily anomalies per year plus
-annual means and a few headline statistics.
+Matches the Climate Dashboard: daily anomalies vs the 1850-1900 preindustrial
+baseline are taken from the file's anom_1850_1900 column, which applies
+Copernicus's day-by-day offset to the 1991-2020 anomaly
+(https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis).
+Output is rounded daily anomalies per year plus annual means and a few headline
+statistics.
 
 Stdlib only (urllib/csv/json) so it runs in CI without pip.
 
@@ -28,9 +30,11 @@ from datetime import datetime, timezone
 # Live source — the daily global-mean 2m series published by Copernicus Climate
 # Pulse, identical to what the Climate Dashboard fetches (see Climate Dashboard
 # config.py). Override the URL with ERA5_URL, or read a local file via ERA5_CSV.
+# Climate Pulse 2.0 path (Nov 2026); the old data/series/ file is only kept a
+# few weeks after that release.
 DEFAULT_URL = (
-    "https://sites.ecmwf.int/data/climatepulse/data/series/"
-    "era5_daily_series_2t_global.csv"
+    "https://sites.ecmwf.int/data/climatepulse/timeseries/csv/daily/"
+    "timeseries_era5_t2m_daily_global.csv"
 )
 ERA5_URL = os.environ.get("ERA5_URL", DEFAULT_URL)
 ERA5_CSV = os.environ.get("ERA5_CSV")  # if set, read this local file instead
@@ -38,11 +42,6 @@ ERA5_CSV = os.environ.get("ERA5_CSV")  # if set, read this local file instead
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT_PATH = os.path.join(HERE, "..", "site", "data", "era5_daily.json")
 
-# Per-month offsets: ERA5 anomaly (1991-2020 baseline) + offset = anomaly vs 1850-1900
-MONTHLY_PREINDUSTRIAL_OFFSETS = {
-    1: 0.96, 2: 0.96, 3: 0.95, 4: 0.91, 5: 0.87, 6: 0.83,
-    7: 0.80, 8: 0.80, 9: 0.81, 10: 0.85, 11: 0.89, 12: 0.93,
-}
 
 
 def read_csv_text() -> str:
@@ -61,18 +60,21 @@ def load_daily():
     lines = [ln for ln in text.splitlines() if not ln.startswith("#")]
     reader = csv.DictReader(io.StringIO("\n".join(lines)))
 
+    if "anom_1850_1900" not in (reader.fieldnames or []):
+        raise SystemExit("ERA5 CSV has no anom_1850_1900 column (pre-Climate Pulse 2.0 "
+                         "file?) — aborting (kept existing JSON).")
+
     rows = []
     for r in reader:
         ds = (r.get("date") or "").strip()
-        raw = (r.get("ano_91-20") or "").strip()
+        raw = (r.get("anom_1850_1900") or "").strip()
         if not ds or not raw:
             continue
         try:
             d = datetime.strptime(ds, "%Y-%m-%d")
-            anom9120 = float(raw)
+            anom = float(raw)
         except ValueError:
             continue
-        anom = anom9120 + MONTHLY_PREINDUSTRIAL_OFFSETS[d.month]
         rows.append({
             "date": ds, "dt": d, "year": d.year, "month": d.month,
             "day": d.day, "anom": anom,

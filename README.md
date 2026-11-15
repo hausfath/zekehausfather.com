@@ -19,7 +19,7 @@ Personal Website/
 │   ├── images/               ← portrait + bg/ (spiral, heatmap, ridgeline, rings)
 │   └── CNAME                 ← custom domain (zekehausfather.com)
 ├── scripts/
-│   ├── process_era5.py       ← builds era5_daily.json from the Climate Dashboard CSV
+│   ├── process_era5.py       ← builds era5_daily.json from Copernicus Climate Pulse
 │   ├── update_feeds.py       ← refreshes the blog + media JSON (stdlib only)
 │   └── update_all.sh         ← runs both; handy for a local cron
 └── .github/workflows/deploy.yml  ← scheduled refresh + Pages deploy
@@ -53,9 +53,10 @@ To pin a high-quality item, add it to `site/data/media.json` with a `note` field
 
 ### ERA5 chart data
 
-`process_era5.py` reads the Climate Dashboard daily CSV (default path is hard-coded; override
-with the `ERA5_CSV` env var) and writes `site/data/era5_daily.json` — per-year daily anomalies
-vs. the 1850–1900 baseline plus headline stats. Re-run it whenever the underlying ERA5 series
+`process_era5.py` fetches the Copernicus Climate Pulse daily series (the same file the Climate
+Dashboard uses; read a local copy instead with the `ERA5_CSV` env var) and writes
+`site/data/era5_daily.json`: per-year daily anomalies vs. the 1850–1900 baseline, using
+Copernicus's day-by-day preindustrial offset, plus headline stats. Re-run it whenever the underlying ERA5 series
 updates:
 
 ```bash
