@@ -1,8 +1,15 @@
 {
   "source": "The Climate Brink",
   "author_url": "https://www.theclimatebrink.com/",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "posts": [
+    {
+      "title": "We can’t decarbonize if we can’t build",
+      "url": "https://www.theclimatebrink.com/p/we-cant-decarbonize-if-we-cant-build",
+      "date": "2026-11-16",
+      "description": "The Senate permitting bill is far from perfect, but waiting for the Democratic Congress is unlikely to lead to a better one that can pass.",
+      "author": "Zeke Hausfather"
+    },
     {
       "title": "Off-grid data centers have 60-80% higher emissions",
       "url": "https://www.theclimatebrink.com/p/off-grid-data-centers-have-60-80",
@@ -50,13 +57,6 @@
       "url": "https://www.theclimatebrink.com/p/what-we-can-and-cannot-say-about",
       "date": "2026-08-28",
       "description": "Formal attribution is premature, but the collapse happened on a rapidly warming mountain in a valley losing its ice",
-      "author": "Zeke Hausfather"
-    },
-    {
-      "title": "The real energy use of agentic AI",
-      "url": "https://www.theclimatebrink.com/p/the-real-energy-use-of-agentic-ai",
-      "date": "2026-08-05",
-      "description": "Agents use about 600x more energy than simple AI prompts",
       "author": "Zeke Hausfather"
     }
   ]
