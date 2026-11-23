@@ -1,6 +1,6 @@
 {
   "source": "Media coverage",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "note": "Curated highlights plus major-outlet coverage from GDELT and Google News (past 12 months).",
   "items": [
     {
@@ -158,6 +158,13 @@
       "note": "Drew on his and Robert Rohde's Berkeley Earth briefing: the event is 'more likely than not to be the strongest El Niño ever observed.'"
     },
     {
+      "title": "'Mind-blowing' El Niño stuns scientists. Why are they so concerned?",
+      "outlet": "USA Today",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSTlPamlOOWJVX3JkVmRtMGZ0aDVyM3kySEFiR3VmWklnZGk1U1YtZkhsTFVXeVdLbnJxT01kTUd4Sm9WbWNUc3ZVb0RnVnh4cXBoaDA4NFFoZTRuRVF0MEpKd0Jlek9HRFZCWmZDWkdueTBKY0xCOExTM1RMcVRibU9oVkI5b2RmQzRfTGlmcGlsdnRHNzdKMHNnUEU?oc=5",
+      "date": "2026-07-25",
+      "note": ""
+    },
+    {
       "title": "The 2026 El Niño Is on Track to Be the Strongest on Record",
       "outlet": "Wired",
       "url": "https://www.wired.com/story/2026-el-nino-the-strongest-in-150-years/",
@@ -254,6 +261,13 @@
       "url": "https://www.nature.com/articles/d41586-026-01477-w",
       "date": "2026-05-12",
       "note": "Featured for using AI to code new climate-data visualizations, including his 3D tree-ring temperature plots."
+    },
+    {
+      "title": "WATCH — Why El Niño could make 2026 the hottest year ever recorded | videoclip | Kids News",
+      "outlet": "CBC News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeFhEaTJYS0dUbkdDM1djSjRLMlg1OGNMYzh3dG5qZG5oLWdjUngwOTVqT01JcWZ0NjUtdW94QUdneVZBTlhCa3dqcFNsUUlXUkl5anlEZm9yb2tfaUlxNjFxdmJWUHVMM1g1b1dTc3FnR2Y2eHBPREQ1NFMtZTkwS0JBNFRJNU9zc3hKdENWeXFnUHpfZDFKYUpibGpFdw?oc=5",
+      "date": "2026-03-24",
+      "note": ""
     }
   ]
 }
